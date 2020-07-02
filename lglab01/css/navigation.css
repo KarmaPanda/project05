@@ -1,0 +1,36 @@
+.menu ul{
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+ .menu li{
+    border: solid;
+    border-color: #52f0d5;
+    background-color: #053b2b;
+}
+
+.menu a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(39, 221, 182);
+
+}
+
+.menu a:hover{
+     color: #053b2b;
+    background-color: #52f095;
+}
+
+.menu a.is-current{
+  color: black;
+    background-color: #1a9677; 
+}
+
+@media (max-width: 450px) {
+	.menu ul, .menu li { display: block; } 
+}
