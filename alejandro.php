@@ -1,3 +1,4 @@
+<?php include "inc/nav.php";?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,9 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro Ramirez</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
 </head>
 
-<body>
+<body class="container">
     <header>
         <h1>Alejandro Ramirez</h1>
         <ul>
@@ -32,7 +37,8 @@
             <p>I'm interested in computer vision, security, and machine learning - and how we
                 can use these technologies to help people in their everyday life and their jobs.</p>
         </header>
-
+        <div class="edu">
+            <div class="i">
         <h2>Education</h2>
 
         <p>University of Rochester, Rochester NY</p>
@@ -43,8 +49,8 @@
             <li>Cluster: Psychology as a Social Science</li>
         </ul>
 
-        <p>For the Fall 2020 semester, I will be a TA for CSC 214</p>
-
+        <p>For the Fall 2020 semester, I will be a TA for CSC 214</p></div>
+        <div class="awards">
         <h3>CS classes I've taken:</h3>
 
         <ul>
@@ -54,7 +60,7 @@
             <li>CSC 173: Computation and Formal Systems</li>
             <li>CSC 214: Mobile Application Development (iOS - Swift)</li>
             <li>CSC 299W: Social Implications of Computing</li>
-        </ul>
+        </ul></div></div>
     </section>
 
     <section>

@@ -1,3 +1,4 @@
+<?php include "inc/nav.php";?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,9 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adira Blumenthal</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
 </head>
 
-<body>
+<body class="container">
     <header>
         <h1>Adira Blumenthal</h1></a>
         <ul>
@@ -25,16 +30,15 @@
             on stage to behind the scenes, doing lighting, sound, and stage management. </p>
     </section>
 
-    <section>
-        <header>
+    <section class="interests">
+        <header class="i">
             <h2>Interests</h2>
             <p>I'm interested in using technology to help people with disabilities be more independent.
                 Assistive technology has the power to enable independence, foster learning, facilitate
                 opportunities, and empower people with disabilities. I am studying Computer Science and
                 Brain and Cognitive Science in order to merge my interest for technology and my passion
                 for helping people with disabilities.</p>
-        </header>
-
+        
         <h2>Education</h2>
         <div>University of Rochester, Rochester, NY</div>
         <ul>
@@ -43,7 +47,9 @@
             <li>Minor: Brain and Cognitive Science</li>
             <li>Clusters: Theater Production & Psychology</li>
         </ul>
+        </header>
 
+        <div class="awards">
         <h2>Awards and Skills</h2>
         <h3>Coding Languages</h3>
         <ul>
@@ -62,12 +68,14 @@
             <li>ASL Project - building a device to help hearing parents of deaf children learn
                 sign language and teach it to their child</li>
         </ul>
+    </div>
     </section>
 
     <section>
-        <div>Experiences</div>
-
-        <h2>University of Rochester</h2>
+        <div class="heading">Experiences</div>
+        <div class="grid">
+        <div class="roc">
+        <h2 class="ur">University of Rochester</h2>
 
         <h3>Production Team, ROC Players</h3>
         <ul>
@@ -78,10 +86,10 @@
 
         <h3>Member, Society of Women Engineers</h3>
         <p>Helped plan the “Girls Workshop” where we teach girls in elementary school about various
-            engineering fields; ran the computer science activity. </p>
+            engineering fields; ran the computer science activity. </p></div>
 
         <aside class="summer">
-            <h2>Summers</h2>
+            <h2 class="ur">Summers</h2>
             <h3>Nachshon Project Fellow, summer 2020</h3>
             <p>Participated in a three-week leadership training including sessions on Jewish education,
                 working with children, and programming skills</p>
@@ -93,6 +101,7 @@
                     club published a magazine on LGBTQ issues</li>
             </ul>
         </aside>
+        </div>
     </section>
 
     <section>

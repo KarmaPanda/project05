@@ -39,6 +39,5 @@
 .menu a.is-current 
 {
     color: #0075db;
-    /* font-size: 18px; */
     font-weight: 900;  
 }
