@@ -1,4 +1,4 @@
-<?php include "inc/nav.php";?>
+<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Ramirez</title>
+    <title>Alejandro Ramirez | Team LA</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
@@ -15,7 +15,10 @@
 
 <body class="container">
     <header>
-        <h1>Alejandro Ramirez</h1>
+        <a href="index.php" target="_blank">
+            <h1>Alejandro Ramirez</h1>
+        </a>
+        <img src="images/met_resized2.jpg" alt="alejandro">
         <ul>
             <li>University of Rochester, BA in Computer Science</li>
             <li>Class of 2022</li>
@@ -39,33 +42,36 @@
         </header>
         <div class="edu">
             <div class="i">
-        <h2>Education</h2>
+                <h2>Education</h2>
 
-        <p>University of Rochester, Rochester NY</p>
+                <p>University of Rochester, Rochester NY</p>
 
-        <ul>
-            <li>Major: Computer Science</li>
-            <li>Minor: Digital Media Studies (Humanities)</li>
-            <li>Cluster: Psychology as a Social Science</li>
-        </ul>
+                <ul>
+                    <li>Major: Computer Science</li>
+                    <li>Minor: Digital Media Studies (Humanities)</li>
+                    <li>Cluster: Psychology as a Social Science</li>
+                </ul>
 
-        <p>For the Fall 2020 semester, I will be a TA for CSC 214</p></div>
-        <div class="awards">
-        <h3>CS classes I've taken:</h3>
+                <p>For the Fall 2020 semester, I will be a TA for CSC 214</p>
+            </div>
+            <div class="awards">
+                <h3>CS classes I've taken:</h3>
 
-        <ul>
-            <li>CSC 170: Intro to Web Development</li>
-            <li>CSC 171: Intro to Computing Science</li>
-            <li>CSC 172: Data Structures and Algorithms</li>
-            <li>CSC 173: Computation and Formal Systems</li>
-            <li>CSC 214: Mobile Application Development (iOS - Swift)</li>
-            <li>CSC 299W: Social Implications of Computing</li>
-        </ul></div></div>
+                <ul>
+                    <li>CSC 170: Intro to Web Development</li>
+                    <li>CSC 171: Intro to Computing Science</li>
+                    <li>CSC 172: Data Structures and Algorithms</li>
+                    <li>CSC 173: Computation and Formal Systems</li>
+                    <li>CSC 214: Mobile Application Development (iOS - Swift)</li>
+                    <li>CSC 299W: Social Implications of Computing</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
     <section>
 
-        <h2>Activities</h2>
+        <h2>Experiences</h2>
 
         <h3>Engineers without Borders, University of Rochester Chapter</h3>
 
@@ -84,6 +90,8 @@
         <p class="desc">I started volunteering here in 2012. I cook breakfast for 100+
             people, and I coordinate volunteers from the community and local school district. </p>
     </section>
+    <a href="index.php" target="_blank">Back to Home Page</a>
 </body>
-<?php include "inc/scripts.php";?>
+<?php include "inc/scripts.php"; ?>
+
 </html>

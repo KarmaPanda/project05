@@ -1,4 +1,4 @@
-<?php include "inc/nav.php";?>
+<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adira Blumenthal</title>
+    <title>Adira Blumenthal | Team LA</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
@@ -15,7 +15,10 @@
 
 <body class="container">
     <header>
-        <h1>Adira Blumenthal</h1></a>
+        <a href="index.php" target="_blank">
+            <h1>Adira Blumenthal</h1>
+        </a>
+        <img src="images/senior.jpg" alt="adira">
         <ul>
             <li>University of Rochester, BS in Computer Science, 2023</li>
             <li>Lighting Designer and Stage Manager</li>
@@ -38,69 +41,70 @@
                 opportunities, and empower people with disabilities. I am studying Computer Science and
                 Brain and Cognitive Science in order to merge my interest for technology and my passion
                 for helping people with disabilities.</p>
-        
-        <h2>Education</h2>
-        <div>University of Rochester, Rochester, NY</div>
-        <ul>
-            <li>Expected graduation: May 2023</li>
-            <li>Major: Computer Science</li>
-            <li>Minor: Brain and Cognitive Science</li>
-            <li>Clusters: Theater Production & Psychology</li>
-        </ul>
+
+            <h2>Education</h2>
+            <div>University of Rochester, Rochester, NY</div>
+            <ul>
+                <li>Expected graduation: May 2023</li>
+                <li>Major: Computer Science</li>
+                <li>Minor: Brain and Cognitive Science</li>
+                <li>Clusters: Theater Production & Psychology</li>
+            </ul>
         </header>
 
         <div class="awards">
-        <h2>Awards and Skills</h2>
-        <h3>Coding Languages</h3>
-        <ul>
-            <li>Proficient in Java, C, HTML, CSS</li>
-            <li>Familiar with JavaScript and PHP in web development</li>
-            <li>Some experience with Python</li>
-        </ul>
+            <h2>Awards and Skills</h2>
+            <h3>Coding Languages</h3>
+            <ul>
+                <li>Proficient in Java, C, HTML, CSS</li>
+                <li>Familiar with JavaScript and PHP in web development</li>
+                <li>Some experience with Python</li>
+            </ul>
 
-        <div>Honorable Mention, Writing Colloquium Contest, 2020</div>
+            <div>Honorable Mention, Writing Colloquium Contest, 2020</div>
 
-        <h3>Research Projects</h3>
-        <ul>
-            <li>Online Behavior Project - Comparing online behavior during COVID-19 to online
-                behavior pre-COVID-19 and examining the relationship between online behavior
-                and mental health </li>
-            <li>ASL Project - building a device to help hearing parents of deaf children learn
-                sign language and teach it to their child</li>
-        </ul>
-    </div>
+            <h3>Research Projects</h3>
+            <ul>
+                <li>Online Behavior Project - Comparing online behavior during COVID-19 to online
+                    behavior pre-COVID-19 and examining the relationship between online behavior
+                    and mental health </li>
+                <li>ASL Project - building a device to help hearing parents of deaf children learn
+                    sign language and teach it to their child</li>
+            </ul>
+        </div>
     </section>
 
     <section>
         <div class="heading">Experiences</div>
         <div class="grid">
-        <div class="roc">
-        <h2 class="ur">University of Rochester</h2>
+            <div class="roc">
+                <h2 class="ur">University of Rochester</h2>
 
-        <h3>Production Team, ROC Players</h3>
-        <ul>
-            <li>Assistant lighting designer - Fall 2019</li>
-            <li>Stage Manager - Spring 2020</li>
-            <li>Lighting Designer - Fall 2020</li>
-        </ul>
+                <h3>Production Team, ROC Players</h3>
+                <ul>
+                    <li>Assistant lighting designer - Fall 2019</li>
+                    <li>Stage Manager - Spring 2020</li>
+                    <li>Lighting Designer - Fall 2020</li>
+                </ul>
 
-        <h3>Member, Society of Women Engineers</h3>
-        <p>Helped plan the “Girls Workshop” where we teach girls in elementary school about various
-            engineering fields; ran the computer science activity. </p></div>
+                <h3>Member, Society of Women Engineers</h3>
+                <p>Helped plan the “Girls Workshop” where we teach girls in elementary school about various
+                    engineering fields; ran the computer science activity. </p>
+            </div>
 
-        <aside class="summer">
-            <h2 class="ur">Summers</h2>
-            <h3>Nachshon Project Fellow, summer 2020</h3>
-            <p>Participated in a three-week leadership training including sessions on Jewish education,
-                working with children, and programming skills</p>
+            <aside class="summer">
+                <h2 class="ur">Summers</h2>
+                <h3>Nachshon Project Fellow, summer 2020</h3>
+                <p>Participated in a three-week leadership training including sessions on Jewish education,
+                    working with children, and programming skills</p>
 
-            <h3>Bunk Counselor, Camp Ramah New England, Palmer, MA, summer 2019</h3>
-            <ul>
-                <li>Programmed evening activities for rising eighth graders</li>
-                <li>Started a club for LGBTQ teen campers to make camp more LGBTQ-inclusive;
-                    club published a magazine on LGBTQ issues</li>
-            </ul>
-        </aside>
+                <h3>Bunk Counselor, Camp Ramah New England, Palmer, MA, summer 2019</h3>
+                <ul>
+                    <li>Programmed evening activities for rising eighth graders</li>
+                    <li>Started a club for LGBTQ teen campers to make camp more LGBTQ-inclusive;
+                        club published a magazine on LGBTQ issues</li>
+                </ul>
+            </aside>
         </div>
     </section>
 
@@ -108,7 +112,7 @@
         <header>
             <h2>About the Art</h2>
             <p>This is a sample of my art portfolio. My work is often conceptual, and my medium of choice
-                is acrylic paint. In 2018-2019, my art concentrated on connections; the way we connect with 
+                is acrylic paint. In 2018-2019, my art concentrated on connections; the way we connect with
                 ourselves and others and the barriers to those connections. Some works from that collection
                 are in this sample and some of these works are other more technical pieces.</p>
         </header>
@@ -173,9 +177,7 @@
             </div>
 
             <div class="box nine">
-                <img src="images/folk.jpg"
-                    alt="painting of two faces and the quotes 'nothing to fear but fear itself' and 'slow and steady wins the race'"
-                    class="image">
+                <img src="images/folk.jpg" alt="painting of two faces and the quotes 'nothing to fear but fear itself' and 'slow and steady wins the race'" class="image">
                 <div class="overlay">
                     <div class="text">Folktales and Phobias - Mixed Media</div>
                 </div>
@@ -203,8 +205,9 @@
             </div>
         </div>
     </section>
+    <a href="index.php" target="_blank">Back to Home Page</a>
 </body>
 
-<?php include "inc/scripts.php";?>
+<?php include "inc/scripts.php"; ?>
 
 </html>
