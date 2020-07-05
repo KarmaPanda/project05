@@ -1,4 +1,3 @@
-<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -9,11 +8,12 @@
     <title>Alejandro Ramirez | Team LA</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
 </head>
 
 <body class="container">
+
+    <?php include "inc/nav.php"; ?>
+
     <header>
         <a href="index.php" target="_self">
             <h1>Alejandro Ramirez</h1>
@@ -91,8 +91,12 @@
         <p class="desc">I started volunteering here in 2012. I cook breakfast for 100+
             people, and I coordinate volunteers from the community and local school district. </p>
     </section>
+
     <a href="index.php" target="_self" class="link end">Back to Home Page</a>
+
+
+    <?php include "inc/scripts.php"; ?>
+
 </body>
-<?php include "inc/scripts.php"; ?>
 
 </html>

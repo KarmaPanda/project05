@@ -1,4 +1,3 @@
-<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -11,9 +10,13 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
     <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+
 </head>
 
 <body class="container">
+
+    <?php include "inc/nav.php"; ?>
+
     <header>
         <h1>Team Los Angeles</h1>
         <p>Team Los Angeles, otherwise known as Team LA, is a trio comprised of University
@@ -48,6 +51,8 @@
             I like to write and draw in my spare time.</p>
         <a href="leah.php" target="_self" class="link"> Read more about Leah</a>
     </article>
+
+    <?php include "inc/scripts.php"; ?>
 
 </body>
 
