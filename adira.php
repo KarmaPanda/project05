@@ -15,7 +15,7 @@
 
 <body class="container">
     <header>
-        <a href="index.php" target="_blank">
+        <a href="index.php" target="_self">
             <h1>Adira Blumenthal</h1>
         </a>
         <img src="images/senior.jpg" alt="adira">
@@ -205,7 +205,7 @@
             </div>
         </div>
     </section>
-    <a href="index.php" target="_blank">Back to Home Page</a>
+    <a href="index.php" target="_self">Back to Home Page</a>
 </body>
 
 <?php include "inc/scripts.php"; ?>

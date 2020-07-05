@@ -15,7 +15,7 @@
 
 <body class="container">
     <header>
-        <a href="index.php" target="_blank">
+        <a href="index.php" target="_self">
             <h1>Alejandro Ramirez</h1>
         </a>
         <img src="images/met_resized2.jpg" alt="alejandro">
@@ -90,7 +90,7 @@
         <p class="desc">I started volunteering here in 2012. I cook breakfast for 100+
             people, and I coordinate volunteers from the community and local school district. </p>
     </section>
-    <a href="index.php" target="_blank">Back to Home Page</a>
+    <a href="index.php" target="_self">Back to Home Page</a>
 </body>
 <?php include "inc/scripts.php"; ?>
 
