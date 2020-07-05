@@ -15,6 +15,10 @@ h1{
 	color: #0067c2;
 }
 
+h1 a{
+  text-decoration: none;
+}
+
 .heading{
 	font-family: 'Assistant ExtraBold', sans-serif;
 	font-size: 32px;
@@ -124,12 +128,20 @@ h4
 	grid-column: 4;
 }
 
-.grid, .interests, .edu{
+.grid, .interests, .edu, .top{
 	display: grid;
   	grid-template-columns: 1fr 1fr;
   	grid-template-rows: 1fr;
   	grid-gap: 25px;
   	justify-content: center;
+}
+
+.top_leah{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 70px;
+    justify-content: center;
 }
 
 .roc, .i{
@@ -142,7 +154,43 @@ h4
 	grid-column: 2;
 }
 
+.top_leah img{
+  grid-row: 1;
+  grid-column: 2;
+}
 
+.top_leah p{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.top img {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.top p{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link{
+  color: #6e6e6e;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.link:hover{
+  color: #27496d;
+  border-bottom: 1px solid #27496d;
+}
+
+.end{
+  margin-top: 40px;
+}
 /* Mobile Design */
    
 

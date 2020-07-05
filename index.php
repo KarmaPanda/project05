@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
 </head>
 
 <body class="container">
@@ -27,7 +28,7 @@
             in Brain and Cognitive Science. I'm from Silver Spring, Maryland, which is right outside of
             Washington, DC. I was a dancer for eight years, and my senior year I switched over from being
             on stage to behind the scenes, doing lighting, sound, and stage management.</p>
-        <a href="adira.php" target="_self"> Read more about Adira</a>
+        <a href="adira.php" target="_self" class="link"> Read more about Adira</a>
     </article>
 
     <article>
@@ -36,7 +37,7 @@
             and minoring in Digital Media Studies. Before UR, I spent the first semester of
             my college career at RPI studying Mechanical Engineering. Aside from computing,
             I love cooking, volunteering, hiking/the outdoors, and music!</p>
-        <a href="alejandro.php" target="_self"> Read more about Alejandro</a>
+        <a href="alejandro.php" target="_self" class="link"> Read more about Alejandro</a>
     </article>
 
     <article>
@@ -45,7 +46,7 @@
             I'm majoring in Computer Science with a focus in Human Computer Interaction.
             I'm also minoring in International Relations. When I'm not busy building complex worlds,
             I like to write and draw in my spare time.</p>
-        <a href="leah.php" target="_self"> Read more about Leah</a>
+        <a href="leah.php" target="_self" class="link"> Read more about Leah</a>
     </article>
 
 </body>

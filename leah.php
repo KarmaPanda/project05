@@ -18,11 +18,12 @@
         <a href="index.php" target="_self">
             <h1>Leah Goodwin</h1>
         </a>
+        <div class="top_leah">
         <img src="images/me.jpg" alt="leah">
         <ul>
             <li>University of Rochester, BA in Computer Science, HCI Track</li>
             <li>Class of 2021</li>
-        </ul>
+        </ul></div>
     </header>
 
     <section>
@@ -97,7 +98,7 @@
             </div>
         </div>
     </section>
-    <a href="index.php" target="_self">Back to Home Page</a>
+    <a href="index.php" target="_self" class="link end">Back to Home Page</a>
 </body>
 <?php include "inc/scripts.php"; ?>
 

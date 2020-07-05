@@ -15,14 +15,16 @@
 
 <body class="container">
     <header>
-        <a href="index.php" target="_self">
+        <a href="index.php" target="_self" class="title_link">
             <h1>Adira Blumenthal</h1>
         </a>
+        <div class="top">
         <img src="images/senior.jpg" alt="adira">
         <ul>
             <li>University of Rochester, BS in Computer Science, 2023</li>
             <li>Lighting Designer and Stage Manager</li>
         </ul>
+        </div>
     </header>
 
     <section>
@@ -205,7 +207,7 @@
             </div>
         </div>
     </section>
-    <a href="index.php" target="_self">Back to Home Page</a>
+    <a href="index.php" target="_self" class="link end">Back to Home Page</a>
 </body>
 
 <?php include "inc/scripts.php"; ?>
