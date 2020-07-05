@@ -66,8 +66,6 @@
             programming team, but I was also on the PR Team where I had my first experience
             with creating a website.
         </p>
-        </div>
-        </div>
 
         <div class="grid">
             <div class="i">
