@@ -1,4 +1,3 @@
-<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -14,6 +13,9 @@
 </head>
 
 <body class="container">
+
+    <?php include "inc/nav.php"; ?>
+
     <header>
         <a href="index.php" target="_self">
             <h1>Leah Goodwin</h1>
@@ -98,7 +100,9 @@
         </div>
     </section>
     <a href="index.php" target="_self">Back to Home Page</a>
+
+    <?php include "inc/scripts.php"; ?>
+
 </body>
-<?php include "inc/scripts.php"; ?>
 
 </html>

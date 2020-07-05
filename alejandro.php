@@ -1,4 +1,3 @@
-<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -14,6 +13,9 @@
 </head>
 
 <body class="container">
+
+    <?php include "inc/nav.php"; ?>
+
     <header>
         <a href="index.php" target="_self">
             <h1>Alejandro Ramirez</h1>
@@ -91,7 +93,9 @@
             people, and I coordinate volunteers from the community and local school district. </p>
     </section>
     <a href="index.php" target="_self">Back to Home Page</a>
+
+    <?php include "inc/scripts.php"; ?>
+
 </body>
-<?php include "inc/scripts.php"; ?>
 
 </html>

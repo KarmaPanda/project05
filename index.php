@@ -1,4 +1,3 @@
-<?php include "inc/nav.php"; ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -13,6 +12,9 @@
 </head>
 
 <body class="container">
+
+    <?php include "inc/nav.php"; ?>
+
     <header>
         <h1>Team Los Angeles</h1>
         <p>Team Los Angeles, otherwise known as Team LA, is a trio comprised of University
@@ -47,6 +49,8 @@
             I like to write and draw in my spare time.</p>
         <a href="leah.php" target="_self"> Read more about Leah</a>
     </article>
+
+    <?php include "inc/scripts.php"; ?>
 
 </body>
 
