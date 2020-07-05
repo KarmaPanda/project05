@@ -8,7 +8,6 @@
     <title>Leah Goodwin | Team LA</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'> -->
 </head>
 
 <body class="container">
