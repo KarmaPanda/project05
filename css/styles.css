@@ -133,16 +133,8 @@ h4
 	display: grid;
   	grid-template-columns: 1fr 1fr;
   	grid-template-rows: 1fr;
-  	grid-gap: 25px;
+  	grid-gap: 50px;
   	justify-content: center;
-}
-
-.top_leah{
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 70px;
-    justify-content: center;
 }
 
 .roc, .i{
@@ -155,15 +147,6 @@ h4
 	grid-column: 2;
 }
 
-.top_leah img{
-  grid-row: 1;
-  grid-column: 2;
-}
-
-.top_leah p{
-  grid-row: 1;
-  grid-column: 1;
-}
 
 .top img {
   grid-row: 1;

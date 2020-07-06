@@ -18,7 +18,7 @@
         <a href="index.php" target="_self">
             <h1>Leah Goodwin</h1>
         </a>
-        <div class="top_leah">
+        <div class="top">
         <img src="images/me.jpg" alt="leah">
         <ul>
             <li>University of Rochester, BA in Computer Science, HCI Track</li>
