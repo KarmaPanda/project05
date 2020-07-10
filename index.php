@@ -37,7 +37,7 @@
             and minoring in Digital Media Studies. Before UR, I spent the first semester of
             my college career at RPI studying Mechanical Engineering. Aside from computing,
             I love cooking, volunteering, hiking/the outdoors, and music!</p>
-        <a href="alejandro.php" target="_self" class="link"> Read more about Alejandro</a>
+        <a href="jason.php" target="_self" class="link"> Read more about Alejandro</a>
     </article>
 
     <article>
@@ -46,7 +46,7 @@
             I'm majoring in Computer Science with a focus in Human Computer Interaction.
             I'm also minoring in International Relations. When I'm not busy building complex worlds,
             I like to write and draw in my spare time.</p>
-        <a href="leah.php" target="_self" class="link"> Read more about Leah</a>
+        <a href="yilin.php" target="_self" class="link"> Read more about Leah</a>
     </article>
 
     <?php include "inc/scripts.php"; ?>
