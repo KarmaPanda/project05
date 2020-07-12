@@ -32,7 +32,7 @@
         </p>
     </section>
 
-    <section>
+    <section class="interests">
         <header>
             <h2>Interests</h2>
             <p> Yilin is interested in developing better UX for technology use. She believes that every technology should be designed and distributed with broad accessibility and enjoyable user experience. 
@@ -47,8 +47,7 @@
                 <li>Familiar with JavaScript and PHP in web development</li>
                 <li>Some experience with C++ Blueprint</li>
             </ul>
-           
-        </div>
+             </div>
  <div class="awards">
         <h2>Courses Taken</h2>
             <h3>Computer Science</h3>
