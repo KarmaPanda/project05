@@ -102,7 +102,7 @@
             </div>
 
                 <aside class="summer">
-                <h2 class="ur">Research Projects</h2>
+                <h3 class="ur">Research Projects</h3>
                 <ul>
                     <li><strong>Online Behavior Project</strong> - Comparing online behavior during COVID-19 to online
                     behavior pre-COVID-19 and examining the relationship between online behavior
