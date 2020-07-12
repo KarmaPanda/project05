@@ -182,7 +182,7 @@
             <div class="box one">
                 <img src="images/cif_logo.jpg" alt="Computer Interest Floor" class="image">
                 <div class="overlay">
-                    <div class="text">CIF Logo</div>
+                    <div class="text">CIF logo</div>
                 </div>
             </div>
 
@@ -226,8 +226,6 @@
   } );
   </script>
 
-
-    <a href="index.php" target="_self" class="link end">Back to Home Page</a>
 
 </body>
 
