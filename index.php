@@ -29,21 +29,15 @@
     </article>
 
     <article>
-        <h2>Alejandro Ramirez</h2>
-        <p>I'm a rising junior from Long Island, New York. I'm majoring in Computer Science
-            and minoring in Digital Media Studies. Before UR, I spent the first semester of
-            my college career at RPI studying Mechanical Engineering. Aside from computing,
-            I love cooking, volunteering, hiking/the outdoors, and music!</p>
-        <a href="jason.php" target="_self" class="link"> Read more about Alejandro</a>
+        <h2>Jason Katzner</h2>
+        <p>Jason Katzner (he/him) is a member of the University of Rochester class of 2021 majoring in Computer Science. He is also in the GRADE program, studying Online Teaching & Learning. He also studies Linguistics and Technical Theater. Outside of his studies, he lives on the Computer Interest Floor, plays tabletop roleplaying games, and LARPs.</p>
+        <a href="jason.php" target="_self" class="link"> Read more about Jason</a>
     </article>
 
     <article>
-        <h2>Leah Goodwin</h2>
-        <p>I'm currently a student at the University of Rochester, class of 2021.
-            I'm majoring in Computer Science with a focus in Human Computer Interaction.
-            I'm also minoring in International Relations. When I'm not busy building complex worlds,
-            I like to write and draw in my spare time.</p>
-        <a href="yilin.php" target="_self" class="link"> Read more about Leah</a>
+        <h2>Yilin Luo</h2>
+        <p>Yilin Luo is a member of the University of Rochester, class of 2021. She double majored in Computer Science and Studio Arts. Her focus is Human Computer Interaction. With the passion to improve technology UX, she interned at Open Letter Books in summer 2021 as a Website Developer and Marketing Intern. Yilin is keen on bringing enjoyment in arts, she has also volunteered as an art workshop leader at Huther Doyle.</p>
+        <a href="yilin.php" target="_self" class="link"> Read more about Yilin</a>
     </article>
 
     <?php include "inc/scripts.php"; ?>
