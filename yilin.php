@@ -53,32 +53,33 @@
              </div>
        <div class="awards">
         <h2>Courses Taken</h2>
-            <h3>Computer Science</h3>
+        <div id = "accordion">
+            <h3>Computer Science</h3><div class="pannel">
             <ul>
                 <li>CSC170</li>
                 <li>CSC172</li>
                 <li>CSC242</li>
                 <li>CSC174</li>
-            </ul>
-            <h3>Math</h3>
+            </ul></div>
+            <h3>Math</h3><div class="pannel">
             <ul>
                 <li>MTH150</li>
                 <li>MTH161</li>
-            </ul>
-            <h3>Studio Art</h3>
+            </ul></div>
+            <h3>Studio Art</h3><div class="pannel">
             <ul>
                 <li>SA 252</li>
                 <li>SA 222</li>
-            </ul>
-            <h3>Film Studies</h3>
+            </ul></div>
+            <h3>Film Studies</h3><div class="pannel">
             <ul>
                 <li>HIS 276</li>
-            </ul>
-            <h3>Writing</h3>
+            </ul></div>
+            <h3>Writing</h3><div class="pannel">
             <ul>
                 <li>WRT105</li>
-            </ul>
-        </div>
+            </ul></div>
+        </div></div>
     </section>
 
 
@@ -216,6 +217,14 @@
     <a href="index.php" target="_self" class="link end">Back to Home Page</a>
 
     <?php include "inc/scripts.php"; ?>
+
+     <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
 
 </body>
 
