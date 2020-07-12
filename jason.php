@@ -21,127 +21,214 @@
         <div class="top">
         <img src="images/jason.jpg" alt="Jason">
         <ul>
-            <li>University of Rochester, BA in Computer Science, 2021</li>
+            <li>University of Rochester, Class of 2021</li>
             <li>Major: Computer Science</li>
-            <li>Minor: Linguistic</li>
-            <li>Clusters: Theater Production & Performance</li>
+            <li>Minor: Linguistics</li>
+            <li>Cluster: Theater Production</li>
         </ul>
         </div>
     </header>
 
     <section>
         <h2>Overview</h2>
-        <p>Jason Katzner (he/him) is a member of the University of Rochester class of 2021 majoring in
-		    Computer Science. He is also in the GRADE program, studying Online Teaching & Learning. He also
-		    studies Linguistics and Technical Theater. Outside of his studies, he lives on the Computer
-		    Interest Floor, plays tabletop roleplaying games, and LARPs. </p>
+        <p>Jason Katzner (he/him) is a member of the University of Rochester class of 2021 majoring in Computer Science. He is also in the GRADE program, studying Online Teaching & Learning. He also studies Linguistics and Technical Theater. Outside of his studies, he lives on the Computer Interest Floor, plays tabletop roleplaying games, and LARPs.</p>
     </section>
 
-        <article>
-            <h2>Computer Science</h2>
+    <section>
+        <header>
+            <h2>Interests</h2>
+            <p>Apart from his studies, Jason is an avid player of tabletop and live action role-playing games. He’s played tabletop games such as Dungeons & Dragons since he was 12, and live action games such as Amtgard since he was 16. During the current pandemic, he’s stayed in touch with the communities around these games via social media and online play.</p>
 
-            <section>
-                <h3>Bachelor's</h3>
+        </header>
+    </section>
 
-                <p>Jason is pursuing a Bachelor of Arts in Computer Science from the Hajim School. Originally on a focus track in Natural Language Understanding, he is considering a last-minute switch to Human-Computer Interaction (HCI). On the professional side of computer science, Jason has worked as an intern at Accrete, a financial technology startup specializing in artificial-intelligence generated market analysis.</p>
+    <section class="interests">
+        <div class="i">
+            <h2>Coding Languages</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>C</li>
+                <li>Assembly (x86)</li>
+            </ul>
+        </div>
+        <div class="awards">
+        <h2>Courses Taken</h2>
+        <div id="accordion">
+            <h3>Computer Science</h3>
+			<div class="pannel">
+				<ul>
+					<li>CSC170</li>
+					<li>CSC172</li>
+					<li>CSC173</li>
+					<li>CSC242</li>
+					<li>CSC250</li>
+					<li>CSC252</li>
+					<li>CSC261</li>
+					<li>CSC280</li>
+					<li>CSC273W</li>
+					<li>CSC275</li>
+				</ul>
+			</div>
+			
+            <h3>Education</h3>
+			<div class="pannel">
+				<ul>
+					<li>EDE484</li>
+					<li>EDE486</li>
+				</ul>
+			</div>
+			
+            <h3>English</h3>
+			<div class="pannel">
+				<ul>
+					<li>ENG154</li>
+					<li>ENG173</li>
+					<li>ENG178 (Costumes)</li>
+					<li>ENG178 (Sound)</li>
+					<li>ENG179 (Lighting)</li>
+					<li>ENG271</li>
+					<li>ENG297</li>
+					<li>ENG299</li>
+					<li>ENG299</li>
+				</ul>
+			</div>
+			
+            <h3>Engineering and Applied Science</h3>
+			<div class="pannel">
+				<ul>
+					<li>EAS141</li>
+					<li>BCS143</li>
+				</ul>
+			</div>
+			
+            <h3>Linguistics</h3>
+			<div class="pannel">
+				<ul>
+					<li>LIN110</li>
+					<li>LIN210</li>
+					<li>LIN220</li>
+					<li>LIN225</li>
+					<li>LIN250</li>
+				</ul>
+			</div>
+			
+            <h3>Math</h3>
+			<div class="pannel">
+				<ul>
+					<li>MTH150</li>
+				</ul>
+			</div>
+			
+            <h3>Music</h3>
+			<div class="pannel">
+				<ul>
+					<li>MUR125</li>
+				</ul>
+			</div>
+			
+            <h3>Writing</h3>
+			<div class="pannel">
+				<ul>
+					<li>WRT105</li>
+					<li>WRT273</li>
+				</ul>
+			</div>
+        </div>
+        </div>
+    </section>
 
-                <aside>
-                    <h4>Coursework</h4>
 
-                    <ul>
-                        <li>CSC	170: Intro to Web Design & Development</li>
-                        <li>CSC	172: Data Structures & Algorithms</li>
-                        <li>CSC	173: Computation and Formal Systems</li>
-                        <li>CSC	242: Artificial Intelligence</li>
-                        <li>CSC	250: Data Science for Linguistics</li>
-                        <li>CSC	252: Computer Organization</li>
-                        <li>CSC	261: Intro to Databases</li>
-                        <li>CSC	280: Computer Models & Limitations</li>
-                        <li>CSC	273W: Writing for Computer Science</li>
-                        <li>CSC	275: Creative Computing</li>
-                        <li>MTH 150: Discrete Mathematics</li>
-                        <li>WRT 105: Posthumanism</li>
-                        <li>WRT 273: Engineering - Communicating Your Professional Identity</li>
-                    </ul>
-                </aside>
-            </section>
-        </article>
 
-        <article>
-            <h2>Education</h2>
+    <section>
+        <div class="heading">Work Experiences</div>
+        <div class="grid">
+            <div class="roc">
+                <h3>Brooklyn Game Lab</h3>
+                <p>During high school, Jason worked at local tabletop game store Brooklyn Game Lab, as an instructor in their after school game design program. He also worked at their summer camp, teaching kids how to modify existing games and playtest new ones.</p>
+            </div>
 
-            <section>
-                <h3>Master's</h3>
-
-                <p>Jason is pursuing a Master's of Education from the Warner School via the Guaranteed Rochester Accelerated Degree in Education (GRADE) program. He is intending to utilize the combined degree option to also complete an Advanced Certification in Digitally-Rich Teaching in K-12 Schools. Outside of formal education, Jason has worked in afterschool and summer programs, as well as tutoring students in the Java programming language.</p>
-
-                <aside>
-                    <h4>Coursework</h4>
-
-                    <ul class="course-list">
-                        <li>EDE	484: Online Teaching & Learning</li>
-                        <li>EDE 486: Designing Online Courses</li>
-                    </ul>
-                </aside>
-            </section>
-        </article>
-
-        <section>
-            <h3>Minor: Linguistics</h3>
-            <p>Jason has completed a cluster in Language Structure via the linguistics department. This cluster is defined as one that "focuses on the semantics and pragmatics of natural language and how linguistic forms and their usages give rise to meanings" (<a href="https://secure1.rochester.edu/registrar/CSE/clusterView.php?clusterNumber=S1LIN005" target="_blank">source</a>). In the fall, Jason plans to finish all remaining coursework to turn this cluster into a minor in linguistics.</p>
-
-            <aside>
-                <h4>Coursework</h4>
-                <ul class="course-list">
-                    <li>LIN	110: Introduction to Linguistic Analysis</li>
-                    <li>LIN	210: Introduction to Language Sound Systems</li>
-                    <li>LIN	220: Introduction to Grammatical Systems</li>
-                    <li>LIN	225: Introduction to Semantic Analysis (minor, planned)</li>
-                    <li>LIN	250: Data Science for Linguistics (minor)</li>
-                </ul>
+            <aside class="summer">
+                <h3>Accrete</h3>
+				<p>Jason interned for Accrete, a financial technology startup based in Manhattan. Reporting to their on-site AI Scientist, Jason worked on projects leveraging NLP and other machine learning techniques to derive market insight.</p>
             </aside>
-        </section>
+        </div>
+    </section>
+	
+    <section>            
+		<div class="heading">Clubs</div>
+            <div class="grid">
+                <div class="roc">
+                <h3>CIF</h3>
+                <p>On campus, Jason lived in the Special Interest Housing organization CIF (Computer Interest Floor). CIF is located on the third floor of Anderson Tower, and is composed of UR undergraduate students interested in technology. Jason lived on CIF his sophomore and junior years, and is sad to not be returning in the fall for his senior year.</p>
+            </div>
+            <div class="summer">
+                <h3>URMSC</h3>
+                <p>Jason was a member of the University of Rochester Medieval Studies Council for the last year of the club’s existence. The URMSC’s stated goal was to “develop a sense of community among undergraduates, graduate students, and faculty who study the Middle Ages and to promote interest in Medieval Studies at the University of Rochester.” Unfortunately, the council was disbanded in spring of 2019.</p>
+			</div>
+		</div>
+    </section>
+	
+    <section>
+        <header>
+            <h2>About the Images</h2>
+            <p>Here are some logos related to the organizations and companies discussed above.</p>
+        </header>
 
-        <section>
-            <h3>Cluster: Theatre</h3>
-            <p>Jason has also completed a cluster in Theatre Production and Performance via the theater department (housed in the English department), and then some. He originally intended on completing a certificate in stage management, but realized the extracurricular requirements were too steep to complete alongside a master's degree.</p>
+        <h2>Images</h2>
 
-            <aside>
-                <h4>Coursework</h4>
-                <ul class="course-list">
-                    <li>ENG	154: Intro to Design for Stage (cluster)</li>
-                    <li>ENG	173: Intro to Stage Lighting and Sound (cluster)</li>
-                    <li>ENG	178: Design for Stage: Costumes</li>
-                    <li>ENG	178: Design for Stage: Sound (cluster)</li>
-                    <li>ENG	179: Design for Stage: Lighting</li>
-                    <li>ENG	179: Design for Stage: Scenic</li>
-                    <li>ENG	271: Advanced Technical Theater (cluster)</li>
-                    <li>ENG	297: Stage Management: Spring 2019 (cluster)</li>
-                    <li>ENG	299: Performance Lab: Conduct of Life</li>
-                </ul>
-            </aside>
-        </section>
+        <div class="grid">
+            <div class="box one">
+                <img src="images/cif_logo.jpg" alt="Computer Interest Floor" class="image">
+                <div class="overlay">
+                    <div class="text">CIF Logo</div>
+                </div>
+            </div>
 
-        <section>
-            <h3>Electives</h3>
-            <p>Jason occasionally takes some classes that don't count toward his major, grad program, minor, or cluster. These courses are just for fun...and to meet the minimum required 128 credit hours, of course!</p>
+            <div class="box two">
+                <img src="images/bgl_logo.jpg" alt="Brooklyn Game Lab" class="image">
+                <div class="overlay">
+                    <div class="text">BGL logo</div>
+                </div>
+            </div>
 
-            <aside>
-                <h4>Coursework</h4>
-                <ul class="course-list">
-                    <li>EAS	141: Basic Mechanical Fabrication</li>
-                    <li>EAS	143: Introduction to Solid Modeling</li>
-                    <li>MUR	125: History of Rock Music</li>
-                </ul>
-            </aside>
-        </section>
-    </main>
-    <footer>
-        Taken from <a href="http://csc174.org/lab01/jkatzner/lab01" target="_blank">csc174.org/lab01/jkatzner/lab01</a>
-        <p>CSC 174: Advanced Front-end Web Design and Development</p>
-		<a href="index.php" target="_self" class="link end">Back to Home Page</a>
-    </footer>
+            <div class="box three">
+                <img src="images/accrete_logo.jpg" alt="Accrete" class="image">
+                <div class="overlay">
+                    <div class="text">Accrete logo</div>
+                </div>
+            </div>
+
+            <div class="box four">
+                <img src="images/amtgard_logo.jpg" alt="Amtgard" class="image">
+                <div class="overlay">
+                    <div class="text">Amtgard logo</div>
+                </div>
+            </div>
+
+            <div class="box five">
+                <img src="images/dnd_logo.jpg" alt="Dungeons & Dragons" class="image">
+                <div class="overlay">
+                    <div class="text">Dungeons & Dragons logo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?php include "inc/scripts.php"; ?>
+
+   <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+
+
+    <a href="index.php" target="_self" class="link end">Back to Home Page</a>
+
 </body>
 
 </html>
