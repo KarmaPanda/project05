@@ -15,8 +15,8 @@
     <?php include "inc/nav.php"; ?>
 
     <header>
-        <h1>Team Los Angeles</h1>
-        <p>Team Los Angeles, otherwise known as Team LA, is a trio comprised of University
+        <h1>Team Chicago</h1>
+        <p>Team Chicago is a trio comprised of University
             of Rochester students all majoring in Computer Science. Although all three major
             in Computer Science, you'll find they each have their own charms and interests.
             Read their profiles below to find out more about them.
@@ -24,10 +24,7 @@
 
     <article>
         <h2>Adira Blumenthal</h2>
-        <p> I'm a rising sophomore at University of Rochester majoring in Computer Science and minoring
-            in Brain and Cognitive Science. I'm from Silver Spring, Maryland, which is right outside of
-            Washington, DC. I was a dancer for eight years, and my senior year I switched over from being
-            on stage to behind the scenes, doing lighting, sound, and stage management.</p>
+        <p> Adira Blumenthal (she/her) is from Silver Spring, Maryland and is a member of the University of Rochester class of 2023 majoring in Computer Science. She was a dancer for many years but in 2018, she switched over from being on stage to behind the scenes, doing lighting, sound, and stage management for her dance studio. Now, she continues her interest in technical theater at the University of Rochester by her involvement in Roc Players and Todd Productions. </p>
         <a href="adira.php" target="_self" class="link"> Read more about Adira</a>
     </article>
 
