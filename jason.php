@@ -22,7 +22,9 @@
         <img src="images/jason.jpg" alt="Jason">
         <ul>
             <li>University of Rochester, BA in Computer Science, 2021</li>
-            <li>LARPer and Future Educator</li>
+            <li>Major: Computer Science</li>
+            <li>Minor: Linguistic</li>
+            <li>Clusters: Theater Production & Performance</li>
         </ul>
         </div>
     </header>
@@ -40,7 +42,6 @@
 
             <section>
                 <h3>Bachelor's</h3>
-
 
                 <p>Jason is pursuing a Bachelor of Arts in Computer Science from the Hajim School. Originally on a focus track in Natural Language Understanding, he is considering a last-minute switch to Human-Computer Interaction (HCI). On the professional side of computer science, Jason has worked as an intern at Accrete, a financial technology startup specializing in artificial-intelligence generated market analysis.</p>
 
