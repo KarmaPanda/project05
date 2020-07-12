@@ -31,24 +31,27 @@
         <p>Yilin Luo is a member of the University of Rochester, class of 2021. She double majored in Computer Science and Studio Arts. Her focus is Human Computer Interaction. With the passion to improve technology UX, she interned at Open Letter Books in summer 2021 as a Website Developer and Marketing Intern. Yilin is keen on bringing enjoyment in arts, she has also volunteered as an art workshop leader at Huther Doyle.
         </p>
     </section>
-
-    <section class="interests">
-        <header>
-            <h2>Interests</h2>
+    <section>
+    <header>
+        <h2>Interests</h2>
             <p> Yilin is interested in developing better UX for technology use. She believes that every technology should be designed and distributed with broad accessibility and enjoyable user experience. 
 
-            </p>
+            </p>  
         </header>
+    </section>
 
+        <section class="interests">
+        
+       <div class="i">
         <h2>Coding Languages</h2>
-        <div class="i">
+       
             <ul>
                 <li>Proficient in Java, HTML, CSS, SQL</li>
                 <li>Familiar with JavaScript and PHP in web development</li>
                 <li>Some experience with C++ Blueprint</li>
             </ul>
              </div>
- <div class="awards">
+       <div class="awards">
         <h2>Courses Taken</h2>
             <h3>Computer Science</h3>
             <ul>
