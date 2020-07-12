@@ -147,16 +147,11 @@
             <div class="roc">
                 <h3>Brooklyn Game Lab</h3>
                 <p>During high school, Jason worked at local tabletop game store Brooklyn Game Lab, as an instructor in their after school game design program. He also worked at their summer camp, teaching kids how to modify existing games and playtest new ones.</p>
-				
-				<h3>Accrete</h3>
-				<p>Jason interned for Accrete, a financial technology startup based in Manhattan. Reporting to their on-site AI Scientist, Jason worked on projects leveraging NLP and other machine learning techniques to derive market insight.</p>
             </div>
 
             <aside class="summer">
-                <h3 class="ur">Placeholder Text</h3>
-                <ul>
-                    <li><strong>Lorem ipsem</strong> - dolor set.</li>
-                </ul>
+                <h3>Accrete</h3>
+				<p>Jason interned for Accrete, a financial technology startup based in Manhattan. Reporting to their on-site AI Scientist, Jason worked on projects leveraging NLP and other machine learning techniques to derive market insight.</p>
             </aside>
         </div>
     </section>
@@ -167,13 +162,10 @@
                 <div class="roc">
                 <h3>CIF</h3>
                 <p>On campus, Jason lived in the Special Interest Housing organization CIF (Computer Interest Floor). CIF is located on the third floor of Anderson Tower, and is composed of UR undergraduate students interested in technology. Jason lived on CIF his sophomore and junior years, and is sad to not be returning in the fall for his senior year.</p>
-
-                <h3>URMSC</h3>
-                <p>Jason was a member of the University of Rochester Medieval Studies Council for the last year of the club’s existence. The URMSC’s stated goal was to “develop a sense of community among undergraduates, graduate students, and faculty who study the Middle Ages and to promote interest in Medieval Studies at the University of Rochester.” Unfortunately, the council was disbanded in spring of 2019.</p>
             </div>
             <div class="summer">
-                <h3>Placeholder Text</h3>
-                <p>Lorem ipsem dolor set.</p>
+                <h3>URMSC</h3>
+                <p>Jason was a member of the University of Rochester Medieval Studies Council for the last year of the club’s existence. The URMSC’s stated goal was to “develop a sense of community among undergraduates, graduate students, and faculty who study the Middle Ages and to promote interest in Medieval Studies at the University of Rochester.” Unfortunately, the council was disbanded in spring of 2019.</p>
 			</div>
 		</div>
     </section>
@@ -188,35 +180,35 @@
 
         <div class="grid">
             <div class="box one">
-                <img src="images/cif_logo.jpg" alt="logo for the Computer Interest Floor" class="image">
+                <img src="images/cif_logo.jpg" alt="Computer Interest Floor" class="image">
                 <div class="overlay">
                     <div class="text">CIF Logo</div>
                 </div>
             </div>
 
             <div class="box two">
-                <img src="images/bgl_logo.jpg" alt="logo for Brooklyn Game Lab" class="image">
+                <img src="images/bgl_logo.jpg" alt="Brooklyn Game Lab" class="image">
                 <div class="overlay">
                     <div class="text">BGL logo</div>
                 </div>
             </div>
 
             <div class="box three">
-                <img src="images/accrete_logo.jpg" alt="logo for Accrete" class="image">
+                <img src="images/accrete_logo.jpg" alt="Accrete" class="image">
                 <div class="overlay">
                     <div class="text">Accrete logo</div>
                 </div>
             </div>
 
             <div class="box four">
-                <img src="images/amtgard_logo.jpg" alt="logo for Amtgard" class="image">
+                <img src="images/amtgard_logo.jpg" alt="Amtgard" class="image">
                 <div class="overlay">
                     <div class="text">Amtgard logo</div>
                 </div>
             </div>
 
             <div class="box five">
-                <img src="images/dnd_logo.jpg" alt="logo for Dungeons and Dragons" class="image">
+                <img src="images/dnd_logo.jpg" alt="Dungeons & Dragons" class="image">
                 <div class="overlay">
                     <div class="text">Dungeons & Dragons logo</div>
                 </div>
