@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leah Goodwin | Team Chicago</title>
+    <title>Yilin Luo | Team Chicago</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
@@ -88,7 +88,8 @@
     <section>
         <div class="heading">Work Experiences</div>
         <div class="grid">
-            <div class="roc">Open Letter Books, Summer 2020</h3>
+            <div class="roc">
+				<h3>Open Letter Books, Summer 2020</h3>
                 <p>Participated in a 3 month internship at Open Letter Books. 
                 Reconstructed the website and participated in marketing projects.</p>
 
