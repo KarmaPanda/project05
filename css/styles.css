@@ -172,6 +172,18 @@ a{
   border-bottom: 1px solid #27496d;
 }
 
+.awards h3{
+  background-color: #eee;
+  padding: 10px 0px 10px 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-bottom: 0.5px solid slategrey;
+}
+
+.awards h3:hover{
+  color: #27496d;
+}
+
 /* Mobile Design */
    
 
