@@ -1,4 +1,6 @@
-#README
+#Team Chicago
+Adira Blumenthal, Jason Katzner, Yilin Luo
+
 
 ## Classes and Relationships
 We focused our website on a few things that we all had in common. We are all students at the University of Rochester majoring in Computer Science. We focus a lot of our website on our educational interests, coding skills, work experience, and courses we have taken. Towards the bottom of our pages we shift to talking about our extracurriculars, mentioning the clubs we are a part of and displaying portfolios of some of our work.
