@@ -20,9 +20,9 @@
         <div class="top">
         <img src="images/yilinluo.jpg" alt="Yilin Luo">
         <ul>
-            <li>University of Rochester, BA in Computer Science, HCI Track</li>
-            <li>University of Rochester, Studio Arts</li>
-            <li>Class of 2021</li>
+            <li>Major: BA in Computer Science, HCI Track</li>
+            <li>Second Major: Studio Arts</li>
+            <li>Cluster: Linguistics</li>
         </ul></div>
     </header>
 
