@@ -246,8 +246,6 @@
   </script>
 
 
-    <a href="index.php" target="_self" class="link end">Back to Home Page</a>
-
 </body>
 
 </html>
