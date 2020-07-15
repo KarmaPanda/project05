@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-//f pattern
 <html lang="en">
 
 <head>
