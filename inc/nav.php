@@ -1,4 +1,4 @@
-<nav class="menu">
+<nav class="menu spans">
 	<ul>
 		<li><a href="index.php">Home</a></li>
 		<li> <a href="adira.php">Adira</a></li>

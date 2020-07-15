@@ -41,3 +41,10 @@
     color: #0075db;
     font-weight: 900;  
 }
+
+.menu{
+    background-image: url(../images/globe.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
