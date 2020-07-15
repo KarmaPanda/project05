@@ -1,16 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css?family=Assistant|Open+Sans|Rajdhani&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quintessential&display=swap');
 
 .container{
 	width: 85%;
 	max-width: 960px;
 	margin: 25px auto;
-	font-family: 'Rajdhani', serif;
-	color: #6e6e6e;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+
+body {
+background: rgb(74,100,238);
+background: radial-gradient(circle, rgba(74,100,238,1) 0%, rgba(161,156,255,1) 25%, rgba(235,244,255,1) 50%, rgba(186,255,241,1) 75%, rgba(255,196,147,1) 100%);
 }
 
 h1{
-	font-family: 'Assistant ExtraBold', sans-serif;
+	font-family: 'Quintessential', cursive;
 	font-size: 35px;
 	/*color: #0560b0;*/
 	color: #0067c2;
@@ -21,7 +25,7 @@ h1 a{
 }
 
 .heading{
-	font-family: 'Assistant ExtraBold', sans-serif;
+	font-family: 'Quintessential', cursive;
 	font-size: 32px;
 	font-weight: bold;
 	margin-top: 10px;
@@ -32,12 +36,12 @@ h1 a{
 
 h2
 {
-    font-family: 'Assistant ExtraBold', sans-serif;
+    font-family: 'Quintessential', cursive;
 }
 
 h3, h4
 {
-    font-family: 'Assistant', sans-serif;
+   font-family: 'Quintessential', cursive;
 }
 
 h3
