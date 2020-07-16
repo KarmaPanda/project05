@@ -1,25 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "inc/html_top.php"; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | Team Chicago</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-</head>
-
-<body class="container grid">
+<body>
 
     
 
     <header>
 		<ul class="zpage">
+			<li><figure><img src="images/globe.png" alt="globe logo"></figure></li>
 			<li>CSC 174</li>
 			<li id="login">Login</li>
+		</ul>
     </header>
 	
-	<article class="zpagea">
+	<section class="zpagea">
 		<h2>Your Adventure Awaits</h2>
 		<h3>Advanced Front End Web Development</h3>
 		<h4>2020</h4>
@@ -31,7 +24,7 @@
 		</ul>
 		</div>
 		<div><a href="studentlist.php">View all students</a></div>
-	</article>
+	</section>
     
 </body>
 </html>

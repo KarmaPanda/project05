@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant|Open+Sans&display=swap');
+
 
 .menu ul 
 {  
@@ -17,7 +17,7 @@
     margin-left: 30px;
     text-decoration: none;
     display: inline;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 
 .menu a 
@@ -28,18 +28,22 @@
     letter-spacing: 1px;
     font-weight: 600;  
     vertical-align: middle;
-    color: black;
+    color: gray;
 }
 
 .menu a:hover 
 {  
-    color: #ff4500; 
+    color: slateblue;
 }
 
 .menu a.is-current 
 {
-    color: #0075db;
+    color: orange;
     font-weight: 900;  
+}
+
+.menu a.is-current:hover{
+		color: lightgray;
 }
 
 .menu{

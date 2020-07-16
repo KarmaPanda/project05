@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adira Blumenthal | Team Chicago</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-</head>
+<?php include "inc/html_top.php"; ?>
 
 <body class="container">
 
