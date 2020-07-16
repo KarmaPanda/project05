@@ -1,32 +1,3 @@
-
-.zpaget ul{
-	list-style-type: none;
-	justify-content: center;
-}
-
-.zpaget li {
-	display: inline-block;
-	margin: 10px 20px 0px 20px;
-	padding: 0px 0px 0px 0px;
-}
-
-.zpageb {
-		display: grid;
-    grid-template-columns: 66% 33%;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
- }
-
-.zpagem {
-		/*center*/
-}
-
-
-
-
-
 /* *****************
     Base Styles
 ***************** */
@@ -239,6 +210,28 @@ article a
 	padding: 0px 0px 0px 0px;
 }
 
+.zpaget li 
+{
+	display: inline-block;
+	margin: 10px 20px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+.zpageb 
+{
+	display: grid;
+  grid-template-columns: 66% 33%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+ }
+
+ .zpagem 
+{
+		/*center*/
+}
+
 /* *****************
     Modules
 ***************** */
@@ -267,7 +260,13 @@ article a
 
 #login 
 {
-		border: 1px solid gray;
+	border: 1px solid gray;
+}
+
+.zpaget ul
+{
+	list-style-type: none;
+	justify-content: center;
 }
 
 
