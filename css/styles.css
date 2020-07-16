@@ -1,221 +1,7 @@
-.container{
-	width: 85%;
-	max-width: 960px;
-	margin: 25px auto;
-}
-
-body {
-	background: rgb(255,255,255);
-	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,233,255,1) 100%);
-	font-family: 'Montserrat', sans-serif;
-	color: black;
-	line-height: 1.618;
-}
-
-h1{
-	font-family: 'Charmonman', cursive;
-	font-size: 35px;
-	color: #0067c2;
-}
-
-h1 a{
-  text-decoration: none;
-}
-
-.heading{
-	font-family: 'Charmonman', cursive;
-	font-size: 32px;
-	font-weight: bold;
-	margin-top: 10px;
-}
-.ur{
-	font-size: 26px;
-}
-
-h2, h3, h4
-{
-   font-family: 'Charmonman', cursive;
-}
-
-h3
-{
-    margin-bottom: 0px;
-}
-
-h4
-{
-    color: grey;
-    margin-top: 5px;
-}
-
-
-.box{
-  position: relative;
-  width: 75%;
-}
-
-.image{
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #888888;
-}
-
-.box:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.grid{
-	display: grid;
-  	grid-template-columns: 1fr 1fr 1fr 1fr;
-  	grid-template-rows: 1fr;
-  	grid-gap: 25px;
-  	justify-content: center;
-}
-
-.one, .two, .three, .four{
-	grid-row: 1;
-}
-
-.five, .six, .seven, .eight{
-	grid-row: 2;
-}
-
-.nine, .ten, .eleven, .twelve{
-	grid-row: 3;
-}
-
-.one, .five, .nine{
-	grid-column: 1;
-}
-
-.two, .six, .ten{
-	grid-column: 2;
-}
-
-
-.three, .seven, .elevem{
-	grid-column: 3;
-}
-
-.four, .eight, .twelve{
-	grid-column: 4;
-}
-
-.grid, .interests, .edu, .top{
-	display: grid;
-  	grid-template-columns: 1fr 2fr;
-  	grid-template-rows: 1fr;
-  	grid-gap: 50px;
-    grid-column-gap: 10px;
-  	justify-content: center;
-}
-
-.roc, .i{
-	grid-row: 1;
-	grid-column: 1;
-}
-
-.summer, .awards {
-	grid-row: 1;
-	grid-column: 2;
-}
-
-
-.top img {
-  grid-row: 1;
-  grid-column: 2;
-}
-
-.top p{
-  grid-row: 1;
-  grid-column: 1;
-}
-
-a{
-  text-decoration: none;
-}
-
-.link{
-  color: #6e6e6e;
-  border-bottom: 1px solid #6e6e6e;
-  justify-content: center;
-}
-
-.link:hover{
-  color: slateblue;
-  border-bottom: 1px solid #27496d;
-}
-
-.awards h3{
-  background-color: #eee;
-  padding: 10px 0px 10px 15px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  border-bottom: 0.5px solid slategrey;
-}
-
-.awards h3:hover{
-  color: #27496d;
-}
-
-/* Mobile Design */
-   
-
-@media(max-width: 930px)
-{
-	.grid, .interests, .edu{ display: block; }
-	.image, .overlay{
-		max-width: 300px;
-		min-width: 150px;
-		margin-bottom: 20px;
-	}
-}
-
-@media(max-width: 960px){
-	figure {
-          float: none;
-          margin-left: initial;
-     }
-     .image, .overlay{
-     	width: 100%;
-     	min-width: 200px;
-     }
-}
-
-/*Molly's additions for Z-page*/
-#login {
-		border: 1px solid gray;
-}
 
 .zpaget ul{
 	list-style-type: none;
 	justify-content: center;
-	
 }
 
 .zpaget li {
@@ -237,18 +23,304 @@ a{
 		/*center*/
 }
 
-/*Joe's additions for F-page*/
-.spans {
+
+
+
+
+/* *****************
+    Base Styles
+***************** */
+
+body 
+{
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,233,255,1) 100%);
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	line-height: 1.618;
+}
+
+h1
+{
+	font-family: 'Charmonman', cursive;
+	font-size: 35px;
+	color: #0067c2;
+}
+
+h2, h3, h4
+{
+   font-family: 'Charmonman', cursive;
+}
+
+h4
+{
+    color: grey;
+    margin-top: 5px;
+}
+
+h1 a
+{
+  text-decoration: none;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+/* *****************
+    Layout Styles
+***************** */
+
+.container
+{
+	width: 85%;
+	max-width: 960px;
+	margin: 25px auto;
+}
+
+h3
+{
+    margin-bottom: 0px;
+}
+
+.overlay 
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #888888;
+}
+
+.box
+{
+  position: relative;
+  width: 75%;
+}
+
+.image
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.grid
+{
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 25px;
+  justify-content: center;
+}
+
+.grid, .interests, .edu, .top
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-gap: 50px;
+  grid-column-gap: 10px;
+  justify-content: center;
+}
+
+.one, .two, .three, .four
+{
+	grid-row: 1;
+}
+
+.five, .six, .seven, .eight
+{
+	grid-row: 2;
+}
+
+.nine, .ten, .eleven, .twelve
+{
+	grid-row: 3;
+}
+
+.one, .five, .nine
+{
+	grid-column: 1;
+}
+
+.two, .six, .ten
+{
+	grid-column: 2;
+}
+
+.three, .seven, .elevem
+{
+	grid-column: 3;
+}
+
+.four, .eight, .twelve
+{
+	grid-column: 4;
+}
+
+.roc, .i
+{
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.summer, .awards 
+{
+	grid-row: 1;
+	grid-column: 2;
+}
+
+.top img 
+{
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.top p
+{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.text 
+{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.awards h3
+{
+  background-color: #eee;
+  padding: 10px 0px 10px 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-bottom: 0.5px solid slategrey;
+}
+
+/*** New F-Page additions ***/
+.spans 
+{
   grid-column: 1/3;
 }
 
-article a {
+article a 
+{
   position: absolute;
   bottom: 0px;
   right: 0px;
   color: red;
 }
 
-.rel{
+.rel
+{
   position: relative;
+}
+
+/*** New Z-Page additions ***/
+
+.zpage li 
+{
+	display: inline-block;
+	margin: 10px 20px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* *****************
+    Modules
+***************** */
+
+.ur
+{
+	font-size: 26px;
+}
+
+.heading
+{
+	font-family: 'Charmonman', cursive;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.link
+{
+  color: #6e6e6e;
+  border-bottom: 1px solid #6e6e6e;
+  justify-content: center;
+}
+
+/*** New Z-Page additions ***/
+
+#login 
+{
+		border: 1px solid gray;
+}
+
+
+/* *****************
+    State 
+***************** */
+
+.awards h3:hover
+{
+  color: #27496d;
+}
+
+.link:hover
+{
+  color: slateblue;
+  border-bottom: 1px solid #27496d;
+}
+
+.box:hover .overlay 
+{
+  opacity: 1;
+}
+
+
+/* Mobile Design */
+   
+
+@media(max-width: 930px)
+{
+  .grid, .interests, .edu
+  { 
+    display: block; 
+  }
+
+  .image, .overlay
+  {
+		max-width: 300px;
+		min-width: 150px;
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 960px)
+{
+  figure 
+  {
+    float: none;
+    margin-left: initial;
+  }
+  
+  .image, .overlay
+  {
+    width: 100%;
+    min-width: 200px;
+  }
 }

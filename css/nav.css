@@ -1,4 +1,15 @@
 
+/* *****************
+    Modules
+***************** */
+
+.menu
+{
+    background-image: url(../images/globe.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
 
 .menu ul 
 {  
@@ -17,7 +28,7 @@
     margin-left: 30px;
     text-decoration: none;
     display: inline;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .menu a 
@@ -31,10 +42,9 @@
     color: gray;
 }
 
-.menu a:hover 
-{  
-    color: slateblue;
-}
+/* *****************
+    States
+***************** */
 
 .menu a.is-current 
 {
@@ -42,13 +52,12 @@
     font-weight: 900;  
 }
 
-.menu a.is-current:hover{
-		color: lightgray;
+.menu a.is-current:hover
+{
+	color: lightgray;
 }
 
-.menu{
-    background-image: url(../images/globe.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
+.menu a:hover 
+{  
+    color: slateblue;
 }
