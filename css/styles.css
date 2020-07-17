@@ -15,20 +15,28 @@ body
 
 h1
 {
-	font-family: 'Charmonman', cursive;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 35px;
-	color: #0067c2;
+	color: blue;
 }
 
+h2{
+		color: orange;
+		font-size: 30px;
+}
+
+h3{
+		font-size: 20px;
+}
 h2, h3, h4
 {
-  font-family: 'Charmonman', cursive;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h4
 {
-  color: grey;
   margin-top: 5px;
+  font-size: 15px;
 }
 
 h1 a
@@ -68,7 +76,7 @@ h3
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #888888;
+  background-color: hotpink;
 }
 
 .box
@@ -230,22 +238,22 @@ article a
     justify-items: center;
     align-items: center;
 	font-size: 18px;
+	color: blue;
 }
 
 .viewall{
 	font-size: 25px;
-	background-color: lavenderblush;
+	background-color: white;
 	line-height: 2.0;
-	border: 3px outset powderblue;
+	border: 10px dotted orange;
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	font-family: 'Charmonman', cursive;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .viewall:hover{
-		background-color: powderblue;
-		color: white;
+		border: 10px dotted blue;
 }
 
 /* *****************

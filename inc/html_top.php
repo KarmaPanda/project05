@@ -8,5 +8,5 @@
     <title>Project 3: Team Chicago</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
-	<link href="https://fonts.googleapis.com/css2?family=Charmonman&family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>

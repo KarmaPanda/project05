@@ -76,7 +76,7 @@
 
 
     <section>
-        <div class="heading">Work Experiences</div>
+        <h2>Work Experiences</h2>
         <div class="grid">
             <div class="roc">
 				<h3>Open Letter Books, Summer 2020</h3>
@@ -91,7 +91,7 @@
             </div>
 
                 <aside class="summer">
-                <h3 class="ur">Research Projects</h3>
+                <h3>Research Projects</h3>
                 <ul>
                     <li><strong>Digital Media Studies</strong> - Researching college students' interation with media- what they react to and what they look for. </li>
                     <li><strong>Museum Project</strong> - Researching artworks in Memorial Art Gallery's collection. The product was an art exhibition curated and designed by Yilin and her classmates. </li>
@@ -105,7 +105,7 @@
 
             <section>
                 
-                <div class="heading">Clubs</div>
+                <h2>Clubs</h2>
                 <div class="grid">
                     <div class="roc">
                 <h3>LOGOS-Student Arts and Literature Journal</h3>
@@ -116,7 +116,7 @@
                 </ul>
                 </div>
                 <div class="summer">
-                <h3>Member, Society of Women Engineers</h3>
+                <p>Member, Society of Women Engineers</p>
                 <p> Member of Women in Computer Science </p></div></div>
             </section>
             
@@ -128,7 +128,7 @@
             <h2>About the Art</h2>
             <p>This is a sample of my artworks. I pursue precision and realism in my arts. My favourite media are acrylic, watercolor, charcoal, pencil sketches, and oil painting. </p>
         </header>
-                <h2>Art Portfolio</h2>
+                <h3>Art Portfolio</h3>
 
         <div class="grid">
             <div class="box one">

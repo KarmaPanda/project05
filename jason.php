@@ -132,7 +132,7 @@
 
 
     <section>
-        <div class="heading">Work Experiences</div>
+        <h2>Work Experiences</h2>
         <div class="grid">
             <div class="roc">
                 <h3>Brooklyn Game Lab</h3>
@@ -147,7 +147,7 @@
     </section>
 	
     <section>            
-		<div class="heading">Clubs</div>
+		<h2>Clubs</h2>
             <div class="grid">
                 <div class="roc">
                 <h3>CIF</h3>
@@ -166,7 +166,7 @@
             <p>Here are some logos related to the organizations and companies discussed above.</p>
         </header>
 
-        <h2>Images</h2>
+        <h3>Images</h3>
 
         <div class="grid">
             <div class="box one">

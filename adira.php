@@ -78,7 +78,7 @@
 
 
     <section>
-        <div class="heading">Work Experiences</div>
+        <h2>Work Experiences</h2>
         <div class="grid">
             <div class="roc">
                 <h3>Nachshon Project Fellow, summer 2020</h3>
@@ -94,7 +94,7 @@
             </div>
 
                 <aside class="summer">
-                <h3 class="ur">Research Projects</h3>
+                <h3>Research Projects</h3>
                 <ul>
                     <li><strong>Online Behavior Project</strong> - Comparing online behavior during COVID-19 to online
                     behavior pre-COVID-19 and examining the relationship between online behavior
@@ -111,7 +111,7 @@
 
             <section>
                 
-                <div class="heading">Clubs</div>
+                <h2>Clubs</h2>
                 <div class="grid">
                     <div class="roc">
                 <h3>Production Team, ROC Players</h3>
@@ -136,7 +136,7 @@
             <p>This is a sample of Adira’s art portfolio. Adira’s work is often conceptual, and her medium of choice is acrylic paint. In 2018-2019, her art concentrated on connections; the way we connect with ourselves and others and the barriers to those connections. Some works from that collection are in this sample and some of these works are other more technical pieces.</p>
         </header>
 
-        <h2>Art Portfolio</h2>
+        <h3>Art Portfolio</h3>
 
         <div class="grid">
             <div class="box one">
