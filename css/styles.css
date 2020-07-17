@@ -1,3 +1,5 @@
+
+
 /* *****************
     Base Styles
 ***************** */
@@ -205,13 +207,6 @@ article a
 
 /*** New Z-Page additions ***/
 
-.zpage li 
-{
-	display: inline-block;
-	margin: 10px 20px 0px 20px;
-	padding: 0px 0px 0px 0px;
-}
-
 .zpaget li 
 {
 	display: inline-block;
@@ -221,22 +216,41 @@ article a
 
 .zpageb 
 {
-	display: grid;
+  display: grid;
   grid-template-columns: 66% 33%;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  justify-items: stretch;
-  align-items: stretch;
- }
-
- figure
- {
-   margin-left: 10px;
  }
 
  .zpagem 
 {
 		/*center*/
+}
+
+.zstyles {
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+	font-size: 18px;
+}
+
+.viewall{
+	font-size: 25px;
+	background-color: lavenderblush;
+	line-height: 2.0;
+	border: 3px outset powderblue;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: 'Charmonman', cursive;
+}
+
+.viewall:hover{
+		background-color: powderblue;
+		color: white;
 }
 
 /* *****************

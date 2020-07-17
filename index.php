@@ -1,6 +1,6 @@
 <?php include "inc/html_top.php"; ?>
 
-<body>
+<body class="zstyles">
     <header>
 		<ul class="zpaget">
 			<li><figure><img src="images/globe.png" alt="globe logo"></figure></li>
@@ -17,7 +17,9 @@
 			<li>GMO Free</li>
 			<li>BPA Free</li>
 		</ul>
+		<div class="viewall">
 		<a href="studentlist.php">View all students</a>
+		</div>
 		</div>
 	</section>
     
