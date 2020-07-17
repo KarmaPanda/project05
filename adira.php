@@ -5,31 +5,29 @@
     <?php include "inc/nav.php"; ?>
 
     <header>
-        <a href="index.php" target="_self" class="title_link">
-            <h1>Adira Blumenthal</h1>
-        </a>
+        <a href="index.php" target="_self" class="title_link"><h1>Adira Blumenthal</h1></a>
         <div class="top">
-        <img src="images/senior.jpg" alt="adira">
-        <ul>
-            <li>University of Rochester, Class of 2023</li>
-            <li>Major: Computer Science</li>
-            <li>Minor: Brain and Cognitive Science</li>
-            <li>Clusters: Theater Production & Psychology</li>
-        </ul>
+            <img src="images/senior.jpg" alt="adira">
+            <ul>
+                <li>University of Rochester, Class of 2023</li>
+                <li>Major: Computer Science</li>
+                <li>Minor: Brain and Cognitive Science</li>
+                <li>Clusters: Theater Production & Psychology</li>
+            </ul>
         </div>
     </header>
 
     <section>
         <h2>Overview</h2>
-        <p>Adira Blumenthal (she/her) is from Silver Spring, Maryland and is a member of the University of Rochester class of 2023 majoring in Computer Science. She was a dancer for many years but in 2018, she switched over from being on stage to behind the scenes, doing lighting, sound, and stage management for her dance studio. Now, she continues her interest in technical theater at the University of Rochester by her involvement in Roc Players and Todd Productions.</p>
+            <p>Adira Blumenthal (she/her) is from Silver Spring, Maryland and is a member of the University of Rochester class of 2023 majoring in Computer Science. She was a dancer for many years but in 2018, she switched over from being on stage to behind the scenes, doing lighting, sound, and stage management for her dance studio. Now, she continues her interest in technical theater at the University of Rochester by her involvement in Roc Players and Todd Productions.</p>
     </section>
 
     <section>
-        <header>
+        <!-- <header> -->
             <h2>Interests</h2>
                 <p>Adira is interested in using technology to help people with disabilities be more independent.
                 Through her own experiences, she knows that assistive technology has the power to enable independence, foster learning, facilitate opportunities, and empower people with disabilities. She is studying Computer Science and Brain and Cognitive Science in order to merge her interest for technology and her passion for helping people with disabilities.</p>
-        </header>
+        <!-- </header> -->
     </section>
 
     <section class="interests">
@@ -87,62 +85,61 @@
 
     <section>
         <h2>Work Experiences</h2>
-        <div class="grid">
-            <div class="roc">
-                <h3>Nachshon Project Fellow, summer 2020</h3>
-                <p>Participated in a three-week leadership training including sessions on Jewish education,
-                    working with children, and programming skills</p>
+            <div class="grid">
+                <div class="roc">
+                    <h3>Nachshon Project Fellow, summer 2020</h3>
+                        <p>Participated in a three-week leadership training including sessions on Jewish education, working with children, and programming skills</p>
 
-                <h3>Bunk Counselor, Camp Ramah New England, Palmer, MA, summer 2019</h3>
-                <ul>
-                    <li>Programmed evening activities for rising eighth graders</li>
-                    <li>Started a club for LGBTQ teen campers to make camp more LGBTQ-inclusive;
-                        club published a magazine on LGBTQ issues</li>
-                    </ul>
-            </div>
+                    <h3>Bunk Counselor, Camp Ramah New England, Palmer, MA, summer 2019</h3>
+                        <ul>
+                            <li>Programmed evening activities for rising eighth graders</li>
+                            <li>Started a club for LGBTQ teen campers to make camp more LGBTQ-inclusive; club published a magazine on LGBTQ issues</li>
+                        </ul>
+                </div>
 
                 <aside class="summer">
-                <h3>Research Projects</h3>
-                <ul>
-                    <li><strong>Online Behavior Project</strong> - Comparing online behavior during COVID-19 to online
-                    behavior pre-COVID-19 and examining the relationship between online behavior
-                    and mental health </li>
-                    <li><strong>ASL Project</strong> - building a device to help hearing parents of deaf children learn
-                    sign language and teach it to their child</li>
-                </ul>
+                    <h3>Research Projects</h3>
+                        <ul>
+                            <li><strong>Online Behavior Project</strong> - Comparing online behavior during COVID-19 to online
+                            behavior pre-COVID-19 and examining the relationship between online behavior
+                            and mental health </li>
+                            <li><strong>ASL Project</strong> - building a device to help hearing parents of deaf children learn
+                            sign language and teach it to their child</li>
+                        </ul>
                 </aside>
-                </div>
-                </section>
+            </div>
+    </section>
 
                
             
 
-            <section>
-                
-                <h2>Clubs</h2>
-                <div class="grid">
-                    <div class="roc">
-                <h3>Production Team, ROC Players</h3>
-                <ul>
-                    <li>Assistant lighting designer - Fall 2019</li>
-                    <li>Stage Manager - Spring 2020</li>
-                    <li>Lighting Designer - Fall 2020</li>
-                </ul>
+    <section>        
+        <h2>Clubs</h2>
+            <div class="grid">
+                <div class="roc">
+                    <h3>Production Team, ROC Players</h3>
+                        <ul>
+                            <li>Assistant lighting designer - Fall 2019</li>
+                            <li>Stage Manager - Spring 2020</li>
+                            <li>Lighting Designer - Fall 2020</li>
+                        </ul>
                 </div>
+
                 <div class="summer">
-                <h3>Member, Society of Women Engineers</h3>
-                <p>Helped plan the “Girls Workshop” where we teach girls in elementary school about various
-                    engineering fields; ran the computer science activity. </p></div></div>
-            </section>
+                    <h3>Member, Society of Women Engineers</h3>
+                        <p>Helped plan the “Girls Workshop” where we teach girls in elementary school about various engineering fields; ran the computer science activity. </p>
+                </div>
+            </div>
+    </section>
             
         
     
 
     <section>
-        <header>
-            <h2>About the Art</h2>
+        <!-- <header> -->
+        <h2>About the Art</h2>
             <p>This is a sample of Adira’s art portfolio. Adira’s work is often conceptual, and her medium of choice is acrylic paint. In 2018-2019, her art concentrated on connections; the way we connect with ourselves and others and the barriers to those connections. Some works from that collection are in this sample and some of these works are other more technical pieces.</p>
-        </header>
+        <!-- </header> -->
 
         <h3>Art Portfolio</h3>
 
