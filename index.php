@@ -12,14 +12,14 @@
 	<section>
 		<figure class="zpagem"><img src="images/maplogo.jpg" alt="map logo"></figure>
 		<div  class="zpageb">
-		<ul>
-			<li>100% Customer Satisfaction</li>
-			<li>GMO Free</li>
-			<li>BPA Free</li>
-		</ul>
-		<div class="viewall">
-		<a href="studentlist.php">View all students</a>
-		</div>
+			<ul>
+				<li>100% Customer Satisfaction</li>
+				<li>GMO Free</li>
+				<li>BPA Free</li>
+			</ul>
+			<div class="viewall">
+				<a href="studentlist.php">View all students</a>
+			</div>
 		</div>
 	</section>
     
