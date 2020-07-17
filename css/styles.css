@@ -222,11 +222,6 @@ article a
   grid-row-gap: 20px;
  }
 
- .zpagem 
-{
-		/*center*/
-}
-
 .zstyles {
     display: grid;
     grid-template-rows: 25% 50% 25%;
