@@ -8,14 +8,14 @@
 			<!-- Primary Optical Area -->
 			<a href="index.php"><img src="images/globe.png" alt="Logo"></a>
 		</div>
-		<div>
+		<div class="middle">
 		CSC 174
 		</div>
 		<div class="strong">
 			<!-- Strong Fallow Area -->
 			<a href="login.com" target="_blank" id="login">Login</a>
 		</div>
-	</div><!-- .container -->
+	</div><!-- .containerz -->
 </header>
 
 <main>

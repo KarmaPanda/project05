@@ -1,3 +1,123 @@
+/*Kostin Bear inspired*/
+
+
+/*	
+	Big Message styles 
+	************************************** */
+	
+.big-message {
+	text-align: center;
+	text-shadow: 0 0 30px black;
+}
+
+.big-message h1 {
+	font-size: 50px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.big-message .subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	margin-top: 25px;
+}
+
+/*	
+	Positioning
+	******************************************* */
+	
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1200px;
+}
+
+/*	Fixed positioning of the header/footer
+	************************************** */
+.persistent {
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+header.persistent { top: 0; }
+footer.persistent { bottom: 0; }
+
+/*	Styling of the Z-pattern page layout 
+	************************************** */
+
+.z-pattern header, .z-pattern footer { 
+	background-color: rgba(165,108,33,0.3);
+}
+
+/*	Styling of the four Z-pattern quadrants 
+	************************************** */
+.z-pattern .primary, 
+.z-pattern .strong, 
+.z-pattern .weak, 
+.z-pattern .terminal {
+	margin: 35px;
+}
+
+.primary, .weak {
+	margin-left: 0; 
+}
+.strong, .terminal {
+	margin-right: 0; 
+}
+
+.primary a { border-bottom: none; }
+
+/*	Flex positioning of the four quadrants
+	************************************** */
+header .container, footer .container, .l-fpattern { 
+	display: flex;
+	justify-content: space-between;
+}
+.big-message, .primary, .middle, .strong { flex: 1 0 33%; }
+.strong { flex-shrink: 1; }
+
+.l-fpattern > * { margin-right: 50px; }
+.l-fpattern > *:last-child { margin-right: 0; }
+.l-fpattern h2 { flex: 0 0 175px; }
+
+.primary, .middle, .strong, .weak, .terminal { 
+	align-self: center;
+	
+	text-shadow: 0 0 10px black;
+}
+
+/*	Positioning of the centered message
+	************************************** */
+.z-pattern main { 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.z-pattern {
+	background-image: url(../images/cool-background.png);
+	font-size: 18px;
+	color: white;
+}
+
+.viewall{
+	font-size: 25px;
+	line-height: 2.0;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	border: 1px outset white;
+}
+
+#login 
+{
+	background-color: white;
+}
+/*end of Kostin*/
+
+
+
 
 
 /* *****************
@@ -217,75 +337,8 @@ article a
   position: relative;
 }
 
-/*	Styling of the Z-pattern page layout 
-	************************************** */
 
-.z-pattern header, .z-pattern footer { 
-	background-color: rgba(165,108,33,0.3);
-}
 
-/*	Styling of the four Z-pattern quadrants 
-	************************************** */
-.z-pattern .primary, 
-.z-pattern .strong, 
-.z-pattern .weak, 
-.z-pattern .terminal {
-	margin: 35px;
-}
-.primary, .weak { margin-left: 0; }
-.strong, .terminal { margin-right: 0; }
-
-.primary a { border-bottom: none; }
-
-/*	Flex positioning of the four quadrants
-	************************************** */
-header .container, footer .container, .l-fpattern { 
-	display: flex;
-	justify-content: space-between;
-}
-.big-message, .primary, .strong { flex: 1 0 33%; }
-.strong { flex-shrink: 1; }
-
-.l-fpattern > * { margin-right: 50px; }
-.l-fpattern > *:last-child { margin-right: 0; }
-.l-fpattern h2 { flex: 0 0 175px; }
-
-.primary, .strong, .weak, .terminal { 
-	align-self: center;
-	color: white;
-	text-shadow: 0 0 10px black;
-}
-.strong, .terminal { text-align: right; }
-.terminal { font-size: 18pt; }
-
-/*	Positioning of the centered message
-	************************************** */
-.z-pattern main { 
-	display: flex; 
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-}
-
-.z-pattern {
-	background-image: url(../images/cool-background.png);
-	font-size: 18px;
-	color: white;
-}
-
-.viewall{
-	font-size: 25px;
-	line-height: 2.0;
-	text-align: center;
-	font-family: 'Roboto Mono', monospace;
-	color: white;
-	border: 1px outset white;
-}
-
-#login 
-{
-	background-color: white;
-}
 
 /* *****************
     Modules
@@ -376,4 +429,7 @@ header .container, footer .container, .l-fpattern {
 		border: none;
 		text-decoration: underline;
   }
+  .big-message h1 {
+	font-size: 40px;
+}
 }
