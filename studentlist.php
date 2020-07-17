@@ -2,10 +2,11 @@
 
 <body class="container fgrid">
 	<nav class="menu">
-	<ul>
-		<li><a href="index.php">Home</a></li>
-    </ul>
-</nav>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+		</ul>
+	</nav>
+
     <header class="spans">
         <h1>Team Chicago</h1>
         <p>Team Chicago is a trio comprised of University
