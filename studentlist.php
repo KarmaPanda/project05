@@ -1,6 +1,6 @@
 <?php include "inc/html_top.php"; ?>
 
-<body class="container grid">
+<body class="container fgrid">
 	<nav class="menu">
 	<ul>
 		<li><a href="index.php">Home</a></li>

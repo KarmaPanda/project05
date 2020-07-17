@@ -84,12 +84,19 @@ h3
 	height: auto;
 }
 
-
+.fgrid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 50px;
+  grid-column-gap: 0px;
+  justify-content: center;
+}
 
 .grid, .interests, .edu, .top
 {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   grid-gap: 50px;
   grid-column-gap: 0px;
