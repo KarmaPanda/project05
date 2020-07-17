@@ -84,19 +84,12 @@ h3
 	height: auto;
 }
 
-.grid
-{
-	display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 25px;
-  justify-content: center;
-}
+
 
 .grid, .interests, .edu, .top
 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 50px;
   grid-column-gap: 0px;
@@ -187,7 +180,7 @@ h3
 /*** New F-Page additions ***/
 .spans 
 {
-  grid-column: 1/3;
+  grid-column: 1/4;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -270,6 +263,9 @@ article a
   color: #6e6e6e;
   border-bottom: 1px solid #6e6e6e;
   justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 33%
 }
 
 /*** New Z-Page additions ***/
