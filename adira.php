@@ -27,55 +27,63 @@
     <section>
         <header>
             <h2>Interests</h2>
-            <p>Adira is interested in using technology to help people with disabilities be more independent.
-            Through her own experiences, she knows that assistive technology has the power to enable independence, foster learning, facilitate opportunities, and empower people with disabilities. She is studying Computer Science and Brain and Cognitive Science in order to merge her interest for technology and her passion for helping people with disabilities.
-            </p>
-
+                <p>Adira is interested in using technology to help people with disabilities be more independent.
+                Through her own experiences, she knows that assistive technology has the power to enable independence, foster learning, facilitate opportunities, and empower people with disabilities. She is studying Computer Science and Brain and Cognitive Science in order to merge her interest for technology and her passion for helping people with disabilities.</p>
         </header>
     </section>
 
     <section class="interests">
         <div class="i">
             <h2>Coding Languages</h2>
-            <ul>
-                <li>Proficient in Java, C, HTML, CSS</li>
-                <li>Familiar with JavaScript and PHP in web development</li>
-                <li>Some experience with Python</li>
-            </ul>
+                <ul>
+                    <li>Proficient in Java, C, HTML, CSS</li>
+                    <li>Familiar with JavaScript and PHP in web development</li>
+                    <li>Some experience with Python</li>
+                </ul>
         </div>
-        <div class="awards">
-        <h2>Courses Taken</h2>
-        <div id="accordion">
-            <h3>Computer Science</h3><div class="pannel">
-            <ul>
-                <li>CSC170</li>
-                <li>CSC172</li>
-                <li>CSC173</li>
-                <li>CSC174</li>
-            </ul></div>
-            <h3>Math</h3><div class="pannel">
-            <ul>
-                <li>MTH150</li>
-                <li>MTH162</li>
-            </ul></div>
-            <h3>English</h3><div class="pannel">
-            <ul>
-                <li>ENG170</li>
-                <li>ENG297</li>
-            </ul></div>
-            <h3>Brain and Cognitive Science</h3><div class="pannel">
-            <ul>
-                <li>BCS111</li>
-            </ul></div>
-            <h3>Writing</h3><div class="pannel">
-            <ul>
-                <li>WRT105</li>
-            </ul></div>
-        </div>
-        </div>
+
+        <aside class="awards">
+            <h2>Courses Taken</h2>
+                <div id="accordion">
+                    <h3>Computer Science</h3>
+                        <div class="pannel">
+                            <ul>
+                                <li>CSC170</li>
+                                <li>CSC172</li>
+                                <li>CSC173</li>
+                                <li>CSC174</li>
+                            </ul>
+                        </div>
+                    <h3>Math</h3>
+                        <div class="pannel">
+                            <ul>
+                                <li>MTH150</li>
+                                <li>MTH162</li>
+                            </ul>
+                        </div>
+                    <h3>English</h3>
+                        <div class="pannel">
+                            <ul>
+                                <li>ENG170</li>
+                                <li>ENG297</li>
+                            </ul>
+                        </div>
+                    <h3>Brain and Cognitive Science</h3>
+                        <div class="pannel">
+                            <ul>
+                                <li>BCS111</li>
+                            </ul>
+                        </div>
+                    <h3>Writing</h3>
+                        <div class="pannel">
+                            <ul>
+                                <li>WRT105</li>
+                            </ul>
+                        </div>
+                </div>
+        </aside>
+
     </section>
-
-
 
     <section>
         <h2>Work Experiences</h2>

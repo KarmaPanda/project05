@@ -103,12 +103,16 @@ h3
 
 .grid, .interests, .edu, .top
 {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   grid-gap: 50px;
   grid-column-gap: 0px;
-  justify-content: center;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 50px;
 }
 
 .one, .two, .three, .four
