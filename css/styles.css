@@ -275,13 +275,11 @@ header .container, footer .container, .l-fpattern {
 
 .viewall{
 	font-size: 25px;
-	background-color: white;
 	line-height: 2.0;
-	border: 10px dotted orange;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	font-family: 'Roboto Mono', monospace;
+	color: white;
+	border: 1px outset white;
 }
 
 #login 
@@ -369,5 +367,13 @@ header .container, footer .container, .l-fpattern {
   {
     width: 100%;
     min-width: 200px;
+  }
+}
+
+@media(max-width: 760px)
+{
+  .viewall {
+		border: none;
+		text-decoration: underline;
   }
 }
