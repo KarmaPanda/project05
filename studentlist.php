@@ -4,7 +4,7 @@
 	<nav class="menu">
 	<ul>
 		<li><a href="index.php">Home</a></li>
-	</ul>
+    </ul>
 </nav>
     <header class="spans">
         <h1>Team Chicago</h1>
