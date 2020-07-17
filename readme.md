@@ -1,4 +1,13 @@
-#Team Chicago
-Us
-#Choices
--Orange and blue for neon CSC pops
+# Team Chicago
+- Molly Kilian
+- Joseph Madejski
+- Alejandro Ramirez
+
+## Choices
+- Orange and blue for neon CSC pops
+
+## To Do
+### Alejandro
+- [ ] Readability fixes
+- [ ] Implement critiques/CRAP
+- [ ] Rewatch discussion and implement Kostin's comments
