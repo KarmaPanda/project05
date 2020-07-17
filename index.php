@@ -1,9 +1,6 @@
 <?php include "inc/html_top.php"; ?>
 
 <body>
-
-    
-
     <header>
 		<ul class="zpaget">
 			<li><figure><img src="images/globe.png" alt="globe logo"></figure></li>
@@ -16,7 +13,7 @@
 		<figure class="zpagem"><img src="images/maplogo.jpg" alt="map logo"></figure>
 		<div  class="zpageb">
 		<ul>
-			<li>100% Costumer Satisfaction</li>
+			<li>100% Customer Satisfaction</li>
 			<li>GMO Free</li>
 			<li>BPA Free</li>
 		</ul>
@@ -25,4 +22,5 @@
 	</section>
     
 </body>
+
 </html>
