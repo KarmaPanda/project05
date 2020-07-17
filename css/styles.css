@@ -217,32 +217,60 @@ article a
   position: relative;
 }
 
-/*** New Z-Page additions ***/
+/*	Styling of the Z-pattern page layout 
+	************************************** */
 
-.zpaget li 
-{
-	display: inline-block;
-	margin: 10px 20px 0px 20px;
-	padding: 0px 0px 0px 0px;
+.z-pattern header, .z-pattern footer { 
+	background-color: rgba(165,108,33,0.3);
 }
 
-.zpageb 
-{
-  display: grid;
-  grid-template-columns: 66% 33%;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
- }
+/*	Styling of the four Z-pattern quadrants 
+	************************************** */
+.z-pattern .primary, 
+.z-pattern .strong, 
+.z-pattern .weak, 
+.z-pattern .terminal {
+	margin: 35px;
+}
+.primary, .weak { margin-left: 0; }
+.strong, .terminal { margin-right: 0; }
 
-.zstyles {
-    display: grid;
-    grid-template-rows: 25% 50% 25%;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: center;
-    align-items: center;
+.primary a { border-bottom: none; }
+
+/*	Flex positioning of the four quadrants
+	************************************** */
+header .container, footer .container, .l-fpattern { 
+	display: flex;
+	justify-content: space-between;
+}
+.big-message, .primary, .strong { flex: 1 0 33%; }
+.strong { flex-shrink: 1; }
+
+.l-fpattern > * { margin-right: 50px; }
+.l-fpattern > *:last-child { margin-right: 0; }
+.l-fpattern h2 { flex: 0 0 175px; }
+
+.primary, .strong, .weak, .terminal { 
+	align-self: center;
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+.strong, .terminal { text-align: right; }
+.terminal { font-size: 18pt; }
+
+/*	Positioning of the centered message
+	************************************** */
+.z-pattern main { 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.z-pattern {
+	background-image: url(../images/cool-background.png);
 	font-size: 18px;
-	color: blue;
+	color: white;
 }
 
 .viewall{
@@ -256,8 +284,9 @@ article a
 	font-family: 'Roboto Mono', monospace;
 }
 
-.viewall:hover{
-		border: 10px dotted blue;
+#login 
+{
+	background-color: white;
 }
 
 /* *****************
@@ -287,18 +316,6 @@ article a
   top: 33%
 }
 
-/*** New Z-Page additions ***/
-
-#login 
-{
-	border: 1px solid gray;
-}
-
-.zpaget ul
-{
-	list-style-type: none;
-	justify-content: center;
-}
 
 
 /* *****************

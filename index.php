@@ -1,27 +1,46 @@
 <?php include "inc/html_top.php"; ?>
-
-<body class="zstyles">
-    <header>
-		<ul class="zpaget">
-			<li><figure><img src="images/globe.png" alt="globe logo"></figure></li>
-			<li>CSC 174</li>
-			<li id="login">Login</li>
-		</ul>
-    </header>
 	
-	<section>
-		<figure class="zpagem"><img src="images/maplogo.jpg" alt="map logo"></figure>
-		<div  class="zpageb">
+<body class="z-pattern">
+
+<header class="persistent">
+	<div class="container">
+		<div class="primary">
+			<!-- Primary Optical Area -->
+			<a href="index.php"><img src="images/globe.png" alt="Logo"></a>
+		</div>
+		<div>
+		CSC 174
+		</div>
+		<div class="strong">
+			<!-- Strong Fallow Area -->
+			<a href="login.com" target="_blank" id="login">Login</a>
+		</div>
+	</div><!-- .container -->
+</header>
+
+<main>
+	<div class="big-message">
+		<h1>Welcome to CSC 174!</h1>
+		<div class="subtitle">Your Adventure Awaits</div>
+	</div>
+</main>
+
+<footer class="persistent">
+	<div class="container">
+		<div class="weak">
+			<!-- Weak Fallow Area -->
 			<ul>
 				<li>100% Customer Satisfaction</li>
 				<li>GMO Free</li>
 				<li>BPA Free</li>
 			</ul>
-			<div class="viewall">
-				<a href="studentlist.php">View all students</a>
-			</div>
 		</div>
-	</section>
+		<div class="terminal">
+			<!-- Terminal Area -->
+			<a href="studentlist.php" class="viewall">View all students</a>
+		</div>
+	</div><!-- .container -->
+</footer>
     
 </body>
 
