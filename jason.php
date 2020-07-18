@@ -166,7 +166,7 @@
 
         <!-- <h3>Images</h3> -->
 
-        <div class="grid">
+        <div class="jason-grid">
             <div class="box one">
                 <img src="images/cif_logo.jpg" alt="Computer Interest Floor" class="image">
                 <div class="overlay">
@@ -195,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="box five">
+            <div class="box jason-images-5">
                 <img src="images/dnd_logo.jpg" alt="Dungeons & Dragons" class="image">
                 <div class="overlay">
                     <div class="text">Dungeons & Dragons logo</div>

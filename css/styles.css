@@ -131,7 +131,8 @@ body
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,233,255,1) 100%);
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	line-height: 2.0;
+  line-height: 2.0;
+  padding-bottom: 25px;
 }
 
 h1
@@ -235,7 +236,7 @@ h3
 
  .top
 {
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   grid-gap: 50px;
@@ -322,6 +323,19 @@ display: grid;
   margin-bottom: 0px;
   margin-top: 0px;
   border-bottom: 0.5px solid slategrey;
+}
+
+.jason-images-5
+{
+  grid-row: 1;
+}
+
+.jason-grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0px;
 }
 
 /*** New F-Page additions ***/
