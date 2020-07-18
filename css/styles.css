@@ -130,7 +130,7 @@ body
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,233,255,1) 100%);
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	line-height: 25px;
+	line-height: 2.0;
 }
 
 h1
@@ -167,6 +167,10 @@ h1 a
 a
 {
   text-decoration: none;
+}
+
+p{
+		max-width: 625px;
 }
 
 /* *****************
