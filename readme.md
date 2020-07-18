@@ -18,6 +18,7 @@
 - [ ] Rewatch discussion and implement Kostin's comments
 - [ ] Fix menu width on F-page
 - [ ] Fix paragraph sizes
+- [ ] Fix z-page header/footer colored bar
 
 - [ ] Write out our reasons for choosing the CSS we did
 - [ ] Add back the logo on the pages, find a good one
