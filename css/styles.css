@@ -74,7 +74,8 @@ header .container, footer .container, .l-fpattern {
 	display: flex;
 	justify-content: space-between;
 }
-.big-message, .primary, .middle, .strong { flex: 1 0 33%; }
+/* I commented this out to center the top text on the z-pattern, uncomment if this is neccessary */
+/* .big-message, .primary, .middle, .strong { flex: 1 0 33%; } */
 .strong { flex-shrink: 1; }
 
 .l-fpattern > * { margin-right: 50px; }
