@@ -12,3 +12,4 @@
 - [ ] Implement critiques/CRAP
 - [ ] Rewatch discussion and implement Kostin's comments
 - [ ] Write out our reasons for choosing the CSS we did
+- [ ] Fix menu width on F-page
