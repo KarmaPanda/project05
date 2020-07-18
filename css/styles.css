@@ -417,7 +417,7 @@ article a
   opacity: 1;
 }
 
-a:hover 
+.z-pattern a:hover 
 {
 	color: #f44b42;
 	border-bottom: 1px solid rgb(244, 75, 66);
