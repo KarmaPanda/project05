@@ -4,7 +4,12 @@
 - Alejandro Ramirez
 
 ## Choices
-- Orange and blue for neon CSC pops
+- Blue, white, and black technical background for a CSC feel
+- Orange, blue, and hot pink accents for a neon feel
+- Stars on the read more to relate to advancing technologies and art
+- Fonts chosen are computer science like
+- White text to be read on the darker background
+- Light gray selection property to contrast with the dark background
 
 ## To Do
 ### Alejandro
@@ -13,3 +18,4 @@
 - [ ] Rewatch discussion and implement Kostin's comments
 - [ ] Write out our reasons for choosing the CSS we did
 - [ ] Fix menu width on F-page
+- [ ] Add back the logo on the pages, find a good one
