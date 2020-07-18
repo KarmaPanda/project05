@@ -13,7 +13,7 @@
 		</div>
 		<div class="strong">
 			<!-- Strong Fallow Area -->
-			<a href="login.com" target="_blank" id="login">Login</a>
+			<a href="login.com" target="_blank" class="login-button">Login</a>
 		</div>
 	</div><!-- .containerz -->
 </header>
