@@ -87,10 +87,10 @@
         <h2>Work Experiences</h2>
             <div class="grid">
                 <div class="roc">
-                    <h3>Nachshon Project Fellow, summer 2020</h3>
+                    <h3>Nachshon Project Fellow, Summer 2020</h3>
                         <p>Participated in a three-week leadership training including sessions on Jewish education, working with children, and programming skills</p>
 
-                    <h3>Bunk Counselor, Camp Ramah New England, Palmer, MA, summer 2019</h3>
+                    <h3>Bunk Counselor, Camp Ramah New England, Palmer, MA, Summer 2019</h3>
                         <ul>
                             <li>Programmed evening activities for rising eighth graders</li>
                             <li>Started a club for LGBTQ teen campers to make camp more LGBTQ-inclusive; club published a magazine on LGBTQ issues</li>

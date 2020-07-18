@@ -80,9 +80,6 @@
         </div>
     </section>
 
-
-
-
     <section>
         <h2>Work Experiences</h2>
             <div class="grid">
@@ -91,10 +88,10 @@
                         <p>Participated in a 3 month internship at Open Letter Books. Reconstructed the website and participated in marketing projects.</p>
 
                     <h3>Art Workshop at Huther Doyle, Spring 2020</h3>
-                `        <ul>
+                        <ul>
                             <li>Led art workshops for people at rehabilitation</li>
                             <li>Programmed art workshop series that could later be put in practice</li>
-                        </ul>`
+                        </ul>
                 </div>
 
                 <aside class="summer">

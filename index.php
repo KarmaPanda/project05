@@ -28,12 +28,16 @@
 <footer class="persistent">
 	<div class="container">
 		<div class="weak">
+			<div class = "z-page">
+			<h2>Course Description</h2>
 			<!-- Weak Fallow Area -->
-			<ul>
+			<!-- <ul>
 				<li>100% Customer Satisfaction</li>
 				<li>GMO Free</li>
 				<li>BPA Free</li>
-			</ul>
+			</ul> -->
+				<p>"Front-end" is an industry term that refers to the focus on HTML, CSS and JavaScript, which differentiates this course from the formal programming courses. Topics include information architecture, visual design, and use of client libraries (mostly JS); we will also cover Content Management Systems and introduce web databases using PHP and MySQL.</p>
+				</div>
 		</div>
 		<div class="terminal">
 			<!-- Terminal Area -->
