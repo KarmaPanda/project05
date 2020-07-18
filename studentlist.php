@@ -29,7 +29,7 @@
 
     <figure class="rel">
             <a href="adira.php" target="_self" class="link"> 
-            <img src="images/viewpage.png" alt="view page airplane">
+            <img src="images/stars.png" alt="view page stars">
             <div>View Adira's Page!</div>
         </a>
     </figure>
@@ -48,7 +48,7 @@
 
     <figure class="rel" > 
             <a href="jason.php" target="_self" class="link"> 
-            <img src="images/viewpage.png" alt="view page airplane">
+            <img src="images/stars.png" alt="view page stars">
             <div>View Jason's Page!</div>
         </a>
     </figure>
@@ -66,7 +66,7 @@
 
     <figure class="rel">
             <a href="yilin.php" target="_self" class="link"> 
-            <img src="images/viewpage.png" alt="view page airplane">
+             <img src="images/stars.png" alt="view page stars">
             <div>View Yilin's Page!</div>
         </a>
     </figure>

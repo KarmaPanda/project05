@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="primary">
 			<!-- Primary Optical Area -->
-			<a href="index.php"><img src="images/globe.png" alt="Logo"></a>
+			<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
 		</div>
 		<div class="middle">
 		CSC 174
