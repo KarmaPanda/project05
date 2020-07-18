@@ -99,7 +99,8 @@ header .container, footer .container, .l-fpattern {
 .z-pattern {
 	background-image: url(../images/cool-background.png);
 	font-size: 18px;
-	color: white;
+  color: white;
+  overflow: hidden;
 }
 
 .viewall{
