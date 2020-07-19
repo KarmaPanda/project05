@@ -1,4 +1,9 @@
 <nav class="menu">
+	<a href="index.php">
+		<figure>
+		<img src="images/logo_small.png" alt="Class Logo">
+		</figure>
+	</a>
 	<ul>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="studentlist.php">Student List</a></li>

@@ -62,3 +62,9 @@
 {  
     color: slateblue;
 }
+
+.menu figure {
+    float: left;
+    display: inline;
+    margin: 0px;
+}

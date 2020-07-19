@@ -2,6 +2,11 @@
 
 <body class="container fgrid">
 	<nav class="menu">
+         <a href="index.php">
+            <figure id="padlogo">
+                <img src="images/logo_small.png" alt="Class Logo">
+            </figure>
+        </a>
 		<ul>
 			<li><a href="index.php">Home</a></li>
 		</ul>
