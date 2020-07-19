@@ -17,8 +17,8 @@
 - [ ] Implement critiques/CRAP
 - [ ] Rewatch discussion and implement Kostin's comments
 - [ ] Fix menu width on F-page
-- [ ] Fix paragraph sizes
+- [x] Fix paragraph sizes
 - [ ] Fix z-page header/footer colored bar
-
+- [ ] Update hover on z-page to not be red
 - [ ] Write out our reasons for choosing the CSS we did
 - [ ] Add back the logo on the pages, find a good one
