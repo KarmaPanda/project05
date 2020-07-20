@@ -10,10 +10,11 @@
 .big-message {
 	text-align: center;
 	text-shadow: 0 0 30px black;
+	margin-top: 0px;
 }
 
 .big-message h1 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: normal;
 	margin: 0;
 	color: white;
@@ -22,7 +23,8 @@
 .big-message .subtitle {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
-	margin-top: 25px;
+	margin-top: 15px;
+	margin-bottom: 25px;
 }
 
 /*	
@@ -110,7 +112,7 @@ header .container, footer .container, .l-fpattern {
 	line-height: 2.0;
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
-	color: white;
+	color: orange;
 	border-bottom: 1px dashed white;
 
 }
@@ -398,14 +400,16 @@ article a
 
 .z-page p
 {
-  max-width: 500px;
-  font-size: 14px;
+  max-width: 450px;
+  font-size: 12px;
 }
 
 .z-page h2
 {
   margin-bottom: 0px;
   margin-top: 0px;
+  font-size: 15px;
+  color: gray;
 }
 
 #padlogo {
@@ -435,8 +439,8 @@ article a
 
 .z-pattern a:hover 
 {
-	color: #f44b42;
-	border-bottom: 1px solid rgb(244, 75, 66);
+	color: lightblue;
+	border-bottom: 1px solid orange;
 }
 
 
@@ -480,11 +484,24 @@ article a
 
 @media(max-width: 760px)
 {
-  .viewall {
+	.viewall {
 		border: none;
 		text-decoration: underline;
-  }
-  .big-message h1 {
-	font-size: 40px;
-}
+	}
+  
+	.big-message h1 {
+		font-size: 30px; 
+	}
+  
+	.z-pattern header, .z-pattern footer { 
+		background-color: rgba(165,108,33,0.0);
+	}
+
+	.z-page p{
+		font-size: 10px;
+	}
+	
+	.bigmessage{
+		border: 3px outset white;
+	}
 }
