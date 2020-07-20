@@ -9,11 +9,13 @@
         </a>
 	</nav>
 
+<!-- A simple placeholder for a login page, unstyled for the purposes of this project -->
     <header>
        <h1>Login here</h1>
 	   <div>Username: _______</div>
 	   <div>Password: _______</div>
 	   <div>Go!</div>
+	   <div><a href="index.php">Go back</a></div>
     </header>
 </body>
 
