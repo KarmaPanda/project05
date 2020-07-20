@@ -440,7 +440,8 @@ article a
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: 15px;
-  color: gray;
+  /* color: gray; */
+  text-align: center;
 }
 
 #padlogo {

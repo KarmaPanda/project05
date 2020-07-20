@@ -8,9 +8,7 @@
 			<!-- Primary Optical Area -->
 			<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
 		</div>
-		<div class="middle">
-		CSC 174
-		</div>
+		<div class="middle">CSC 174 - Advanced Front End Web Design and Development</div>
 		<div class="strong">
 			<!-- Strong Fallow Area -->
 			<a href="login.php" class="login-button">Login</a>
