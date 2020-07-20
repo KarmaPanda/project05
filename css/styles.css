@@ -454,7 +454,7 @@ article a
 
 @media(max-width: 930px)
 {
-  .grid, .interests, .edu
+  .grid, .interests, .edu, .fgrid, .jason-grid
   { 
     display: block; 
   }
@@ -465,6 +465,12 @@ article a
 		min-width: 150px;
 		margin-bottom: 20px;
 	}
+	
+   .rel img
+   {
+	 display: none;
+   }
+   
 }
 
 @media(max-width: 960px)
@@ -484,10 +490,6 @@ article a
 
 @media(max-width: 760px)
 {
-	.viewall {
-		border: none;
-		text-decoration: underline;
-	}
   
 	.big-message h1 {
 		font-size: 30px; 

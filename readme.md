@@ -4,12 +4,14 @@
 - Alejandro Ramirez
 
 ## Choices
-- Blue, white, and black technical background for a CSC feel
-- Orange, blue, and hot pink accents for a neon feel
-- Stars on the read more to relate to advancing technologies and art
-- Fonts chosen are computer science like
-- White text to be read on the darker background
-- Light gray selection property to contrast with the dark background
+- Because each one of the students on our page are majoring in computer science, we chose the following design:
+	- Blue, white, and black technical background for a CSC feel
+	- Orange, blue, light blue and hot pink accents for a neon feel
+	- Stars on the read more images to relate to advancing technologies and art
+	- Fonts chosen are computer science like
+	- White text to be read on the darker background
+	- Light gray selection property to contrast with the dark background
+	- Gray accents in places to not contrast with the bright colors
 
 ## To Do
 ### Alejandro
@@ -21,4 +23,5 @@
 - [ ] Fix z-page header/footer colored bar
 - [x] Update hover on z-page to not be red
 - [ ] Write out our reasons for choosing the CSS we did
+- [ ] fix mobile design on the links on the studentlist (if time permits)
 - [x] Add back the logo on the pages, find a good one
