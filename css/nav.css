@@ -37,7 +37,7 @@
     letter-spacing: 1px;
     font-weight: 600;  
     vertical-align: middle;
-    color: gray;
+    color: lightgray;
 }
 
 /* *****************
@@ -52,7 +52,7 @@
 
 .menu a.is-current:hover
 {
-	color: lightgray;
+	color: hotpink;
 }
 
 .menu a:hover 
