@@ -170,7 +170,7 @@ h1, h2, h3, h4
 
 h4
 {
-  margin-top: g5px;
+  margin-top: 5px;
   font-size: 15px;
 }
 
@@ -395,7 +395,7 @@ article a
   justify-content: center;
   margin: 0;
   position: absolute;
-  top: 33%
+  top: 33%;
 }
 
 .z-page p
@@ -409,7 +409,7 @@ article a
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: 15px;
-  color: lightgray;
+  color: gray;
 }
 
 #padlogo {

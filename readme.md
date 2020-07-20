@@ -15,7 +15,7 @@
 
 ## To Do
 ### Alejandro
-- [ ] Readability fixes
+- [x] Readability fixes
 - [ ] Implement critiques/CRAP
 - [ ] Rewatch discussion and implement Kostin's comments
 - [ ] Fix menu width on F-page
@@ -25,3 +25,5 @@
 - [ ] Write out our reasons for choosing the CSS we did
 - [ ] fix mobile design on the links on the studentlist (if time permits)
 - [x] Add back the logo on the pages, find a good one
+- [ ] Complete CSS architecture
+- [ ] Adjust margins and layout according to the rule of thirds
