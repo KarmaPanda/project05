@@ -23,7 +23,7 @@
 - [ ] Fix z-page header/footer colored bar
 - [x] Update hover on z-page to not be red
 - [ ] Write out our reasons for choosing the CSS we did
-- [ ] fix mobile design on the links on the studentlist (if time permits)
+- [ ] Fix mobile design (if time permits)
 - [x] Add back the logo on the pages, find a good one
 - [ ] Complete CSS architecture
 - [ ] Adjust margins and layout according to the rule of thirds
