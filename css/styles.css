@@ -139,7 +139,6 @@ body
 	background-image: url(../images/ccool-background.png);
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	line-height: 2.0;
 	padding-bottom: 25px;
 }
 
@@ -151,9 +150,10 @@ h1
   color: orange;
 }
 
-h2{
-		color: orange;
-		font-size: 30px;
+h2
+{
+	color: orange;
+  font-size: 30px;
 }
 
 h3
@@ -166,6 +166,7 @@ h3
 h1, h2, h3, h4
 {
   font-family: 'Roboto Mono', monospace;
+  line-height: 32px;
 }
 
 h4
@@ -184,8 +185,16 @@ a
   text-decoration: none;
 }
 
-p{
-	max-width: 625px;
+p
+{
+  max-width: 625px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+ul
+{
+  line-height: 32px;
 }
 
 /* *****************
@@ -355,6 +364,12 @@ p{
   margin-right: 10px;
 }
 
+.spans p 
+{
+  max-width: 1000px;
+  line-height: 35px;
+}
+
 article a 
 {
   position: absolute;
@@ -366,6 +381,22 @@ article a
 .rel
 {
   position: relative;
+}
+
+.f-page h2
+{
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.f-page p
+{
+  margin-top: 0px;
+}
+
+#f-page-div
+{
+  display: contents;
 }
 
 
