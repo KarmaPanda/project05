@@ -33,10 +33,9 @@
         </article>
 
         <figure class="rel">
-                <a href="adira.php" target="_self" class="link"> 
-                <img src="images/stars.png" alt="view page stars">
-                <div>View Adira's Page!</div>
-            </a>
+                <a href="adira.php" class="f-page-link"><img src="images/stars_resized.png" alt="view page stars">View Adira's Page</a>
+                <!-- <div>View Adira's Page!</div> -->
+            <!-- </a> -->
         </figure>
 
 
@@ -50,10 +49,8 @@
         </article>
 
         <figure class="rel"> 
-                <a href="jason.php" target="_self" class="link"> 
-                <img src="images/stars.png" alt="view page stars">
-                <div>View Jason's Page!</div>
-            </a>
+                <a href="jason.php" class="f-page-link"><img src="images/stars_resized.png" alt="view page stars">View Jason's Page</a>
+                <!-- <div>View Jason's Page!</div> </a> -->
         </figure>
 
         <figure>
@@ -68,10 +65,9 @@
     </div>    
 
     <figure class="rel">
-            <a href="yilin.php" target="_self" class="link"> 
-             <img src="images/stars.png" alt="view page stars">
-            <div>View Yilin's Page!</div>
-        </a>
+            <a href="yilin.php" class="f-page-link"><img src="images/stars_resized.png" alt="view page stars">View Yilin's Page</a>
+            <!-- <div>View Yilin's Page!</div>
+        </a> -->
     </figure>
 
 

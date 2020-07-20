@@ -419,14 +419,14 @@ article a
 	margin-top: 10px;
 }
 
-.link
+.f-page-link
 {
   color: white;
   border-bottom: 1px solid #6e6e6e;
-  justify-content: center;
   margin: 0;
   position: absolute;
   top: 33%;
+  text-align: center;
 }
 
 .z-page p
@@ -458,7 +458,7 @@ article a
   color: #27496d;
 }
 
-.link:hover
+.f-page-link:hover
 {
   color: orange;
   border-bottom: 1px solid #27496d;
