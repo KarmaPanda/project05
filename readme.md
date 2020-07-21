@@ -18,7 +18,7 @@
 - [x] Readability fixes
 - [ ] Implement critiques/CRAP
 - [ ] Rewatch discussion and implement Kostin's comments
-- [ ] Fix menu width on F-page
+- [x] Fix menu width on F-page
 - [x] Fix paragraph sizes
 - [x] Fix z-page header/footer colored bar
 - [x] Update hover on z-page to not be red

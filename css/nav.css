@@ -5,7 +5,7 @@
 
 .menu
 {
-
+    grid-column: 1/4;
 }
 
 .menu ul 
