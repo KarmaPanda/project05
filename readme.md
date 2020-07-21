@@ -17,7 +17,7 @@
 ## To Do
 ### Alejandro
 - [x] Readability fixes
-- [ ] Implement critiques/CRAP
+- [x] Implement critiques/CRAP
 - [ ] Rewatch discussion and implement Kostin's comments
 - [x] Fix menu width on F-page
 - [x] Fix paragraph sizes
@@ -26,6 +26,6 @@
 - [x] Write out our reasons for choosing the CSS we did
 - [ ] Fix mobile design (if time permits)
 - [x] Add back the logo on the pages, find a good one
-- [ ] Complete CSS architecture
+- [x] Complete CSS architecture
 - [ ] Adjust margins and layout according to the rule of thirds
 - [x] Adjust pictures according to the rule of thirds
