@@ -143,15 +143,15 @@
 
         <h3>Art Portfolio</h3>
 
-        <div class="grid">
-            <div class="box one">
+        <div class="jason-grid">
+            <div class="box four">
                 <img src="images/metaljar.jpg" alt="metal jar" class="image">
                 <div class="overlay">
                     <div class="text">Metal Jar - Pencil and Acrylic</div>
                 </div>
             </div>
 
-            <div class="box two">
+            <div class="box five">
                 <img src="images/jars.jpg" alt="two jars" class="image">
                 <div class="overlay">
                     <div class="text">Two Jars - Acrylic on Canvas Board</div>
@@ -165,14 +165,14 @@
                 </div>
             </div>
 
-            <div class="box four">
+            <div class="box one">
                 <img src="images/equality.jpg" alt="sign for equality" class="image">
                 <div class="overlay">
                     <div class="text">Equality - Pencil</div>
                 </div>
             </div>
 
-            <div class="box five">
+            <div class="box two">
                 <img src="images/bootandanchor.jpg" alt="boot and anchor" class="image">
                 <div class="overlay">
                     <div class="text">Boot and Anchor</div>
@@ -200,7 +200,7 @@
                 </div>
             </div>
 
-            <div class="box nine">
+            <div class="box eleven">
                 <img src="images/folk.jpg" alt="painting of two faces and the quotes 'nothing to fear but fear itself' and 'slow and steady wins the race'" class="image">
                 <div class="overlay">
                     <div class="text">Folktales and Phobias - Mixed Media</div>
@@ -214,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="box eleven">
+            <div class="box nine">
                 <img src="images/colors.jpg" alt="abstract painting" class="image">
                 <div class="overlay">
                     <div class="text">In the Air - Acrylic on Canvas</div>

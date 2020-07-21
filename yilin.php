@@ -129,7 +129,7 @@
             <p>This is a sample of my artworks. I pursue precision and realism in my arts. My favourite media are acrylic, watercolor, charcoal, pencil sketches, and oil painting. </p>
         <!-- </header> -->
             <h3>Art Portfolio</h3>
-                <div class="grid">
+                <div class="jason-grid">
                     <div class="box one">
                         <img src="images/painting3.jpg" alt="Acrylic Painting" class="image">
                         <div class="overlay">
@@ -185,15 +185,17 @@
                             <div class="text">Mandela Design - Pen on Paper</div>
                         </div>
                     </div>
-
+                    <!--
                     <div class="box nine">
                         <img src="images/luo_yilin_design.jpg" alt="Design Studies" class="image">
                         <div class="overlay">
                             <div class="text">Design Project - Digital</div>
                         </div>
                     </div>
+                    
+                    removed due to rule of thirds-->
 
-                    <div class="box ten">
+                    <div class="box nine">
                         <img src="images/img_5107.jpg" alt="Paper Art" class="image">
                         <div class="overlay">
                             <div class="text">Paper Art - cardboard</div>

@@ -261,40 +261,42 @@ ul
   justify-content: center; 
 }
 
-.one, .two, .three, .four
+.one, .two, .three
 {
 	grid-row: 1;
 }
 
-.five, .six, .seven, .eight
+.four, .five, .six, 
 {
 	grid-row: 2;
 }
 
-.nine, .ten, .eleven, .twelve
+.seven, .eight, .nine, 
 {
 	grid-row: 3;
 }
 
-.one, .five, .nine
+.ten, .eleven, .twelve
+{
+  grid-row: 4;
+}
+
+.one, .four, .seven, .ten
 {
 	grid-column: 1;
 }
 
-.two, .six, .ten
+.two, .five, .eight, .eleven
 {
 	grid-column: 2;
 }
 
-.three, .seven, .eleven
+.three, .six, .nine, .twelve
 {
 	grid-column: 3;
 }
 
-.four, .eight, .twelve
-{
-	grid-column: 4;
-}
+
 
 .roc, .i
 {
@@ -343,17 +345,12 @@ ul
   color: blue;
 }
 
-.jason-images-5
-{
-  grid-row: 1;
-}
-
 .jason-grid
 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 0px;
+  grid-gap: 50px;
 }
 
 /*** New F-Page additions ***/

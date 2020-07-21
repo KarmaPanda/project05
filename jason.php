@@ -167,27 +167,28 @@
         <!-- <h3>Images</h3> -->
 
         <div class="jason-grid">
-            <div class="box one">
+            <div class="box three">
                 <img src="images/cif_logo.jpg" alt="Computer Interest Floor" class="image">
                 <div class="overlay">
                     <div class="text">CIF logo</div>
                 </div>
             </div>
 
-            <div class="box two">
+            <div class="box one">
                 <img src="images/bgl_logo.jpg" alt="Brooklyn Game Lab" class="image">
                 <div class="overlay">
                     <div class="text">BGL logo</div>
                 </div>
             </div>
 
-            <div class="box three">
+            <div class="box two">
                 <img src="images/accrete_logo.jpg" alt="Accrete" class="image">
                 <div class="overlay">
                     <div class="text">Accrete logo</div>
                 </div>
             </div>
 
+            <!--
             <div class="box four">
                 <img src="images/amtgard_logo.jpg" alt="Amtgard" class="image">
                 <div class="overlay">
@@ -201,6 +202,8 @@
                     <div class="text">Dungeons & Dragons logo</div>
                 </div>
             </div>
+
+            removed to make # of pictures a multiple of three -->
         </div>
     </section>
 
