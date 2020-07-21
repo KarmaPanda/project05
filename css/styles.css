@@ -381,6 +381,7 @@ article a
 .rel
 {
   position: relative;
+  /* margin: auto; */
 }
 
 .f-page h2
@@ -419,14 +420,38 @@ article a
 	margin-top: 10px;
 }
 
-.f-page-link
+.f-page-link-adria
 {
   color: white;
-  border-bottom: 1px solid #6e6e6e;
-  margin: 0;
-  position: absolute;
-  top: 33%;
+  /* border-bottom: 1px solid #6e6e6e; */
+  margin: auto;
+  /* margin: 0; */
+  /* position: absolute; */
+  /* top: 33%; */
   text-align: center;
+  grid-row: 3;
+  grid-column: 3;
+  text-decoration: underline;
+}
+
+.f-page-link-jason
+{
+  color: white;
+  margin: auto;
+  text-align: center;
+  grid-row: 4;
+  grid-column: 3;
+  text-decoration: underline;
+}
+
+.f-page-link-yilin
+{
+  color: white;
+  margin: auto;
+  text-align: center;
+  grid-row: 5;
+  grid-column: 3;
+  text-decoration: underline;
 }
 
 .z-page p
@@ -458,10 +483,10 @@ article a
   color: #27496d;
 }
 
-.f-page-link:hover
+.f-page-link-adria:hover, .f-page-link-jason:hover, .f-page-link-yilin:hover
 {
   color: orange;
-  border-bottom: 1px solid #27496d;
+  /* border-bottom: 1px solid #27496d; */
 }
 
 .box:hover .overlay 
@@ -476,8 +501,9 @@ article a
 }
 
 
-::selection{
-		background: whitesmoke;
+::selection
+{
+	background: whitesmoke;
 }
 
 

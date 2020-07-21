@@ -32,11 +32,9 @@
                 <p> Adira Blumenthal (she/her) is from Silver Spring, Maryland and is a member of the University of Rochester class of 2023 majoring in Computer Science. She was a dancer for many years but in 2018, she switched over from being on stage to behind the scenes, doing lighting, sound, and stage management for her dance studio. Now, she continues her interest in technical theater at the University of Rochester by her involvement in Roc Players and Todd Productions. </p>
         </article>
 
-        <figure class="rel">
-                <a href="adira.php" class="f-page-link"><img src="images/stars_resized.png" alt="view page stars">View Adira's Page</a>
-                <!-- <div>View Adira's Page!</div> -->
-            <!-- </a> -->
-        </figure>
+        <!-- <figure class="rel"> -->
+                <a href="adira.php" class="f-page-link-adria"><img src="images/stars_resized.png" alt="view page stars"><div>View Adira's Page!</div></a>
+        <!-- </figure> -->
 
 
         <figure>
@@ -48,10 +46,9 @@
                 <p>Jason Katzner (he/him) is a member of the University of Rochester class of 2021 majoring in Computer Science. He is also in the GRADE program, studying Online Teaching & Learning. He also studies Linguistics and Technical Theater. Outside of his studies, he lives on the Computer Interest Floor, plays tabletop roleplaying games, and LARPs.</p>
         </article>
 
-        <figure class="rel"> 
-                <a href="jason.php" class="f-page-link"><img src="images/stars_resized.png" alt="view page stars">View Jason's Page</a>
-                <!-- <div>View Jason's Page!</div> </a> -->
-        </figure>
+        <!-- <figure class="rel">  -->
+                <a href="jason.php" class="f-page-link-jason"><img src="images/stars_resized.png" alt="view page stars"><div>View Jason's Page!</div></a>
+        <!-- </figure> -->
 
         <figure>
                 <img src="images/yilinluo.jpg" alt="Jason Photo">
@@ -64,11 +61,9 @@
 
     </div>    
 
-    <figure class="rel">
-            <a href="yilin.php" class="f-page-link"><img src="images/stars_resized.png" alt="view page stars">View Yilin's Page</a>
-            <!-- <div>View Yilin's Page!</div>
-        </a> -->
-    </figure>
+    <!-- <figure class="rel"> -->
+            <a href="yilin.php" class="f-page-link-yilin"><img src="images/stars_resized.png" alt="view page stars"><div>View Yilin's Page!</div></a>
+    <!-- </figure> -->
 
 
     <?php include "inc/scripts.php"; ?>
