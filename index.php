@@ -3,7 +3,7 @@
 <body class="z-pattern">
 
 <header class="persistent">
-	<div class="container">
+	<div class="containerz">
 		<div class="primary">
 			<!-- Primary Optical Area -->
 			<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
@@ -24,7 +24,7 @@
 </main>
 
 <footer class="persistent">
-	<div class="container">
+	<div class="containerz">
 		<div class="weak">
 			<div class = "z-page">
 			<!-- Weak Fallow Area -->
@@ -36,7 +36,7 @@
 			<!-- Terminal Area -->
 			<a href="studentlist.php" class="viewall">View all students</a>
 		</div>
-	</div><!-- .container -->
+	</div><!-- .containerz -->
 </footer>
     
 </body>

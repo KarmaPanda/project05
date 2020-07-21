@@ -8,8 +8,9 @@
         <a href="index.php" target="_self" class="title_link"><h1>Adira Blumenthal</h1></a>
         <div class="top">
             <img src="images/senior.jpg" alt="adira">
+			<p>Adira Blumenthal (she/her) is from Silver Spring, Maryland and is a member of the University of Rochester class of 2023 majoring in Computer Science. She was a dancer for many years but in 2018, she switched over from being on stage to behind the scenes, doing lighting, sound, and stage management for her dance studio. Now, she continues her interest in technical theater at the University of Rochester by her involvement in Roc Players and Todd Productions.</p>
+    
             <ul>
-                <li>University of Rochester, Class of 2023</li>
                 <li>Major: Computer Science</li>
                 <li>Minor: Brain and Cognitive Science</li>
                 <li>Clusters: Theater Production & Psychology</li>
@@ -17,10 +18,7 @@
         </div>
     </header>
 
-    <section>
-        <h2>Overview</h2>
-            <p>Adira Blumenthal (she/her) is from Silver Spring, Maryland and is a member of the University of Rochester class of 2023 majoring in Computer Science. She was a dancer for many years but in 2018, she switched over from being on stage to behind the scenes, doing lighting, sound, and stage management for her dance studio. Now, she continues her interest in technical theater at the University of Rochester by her involvement in Roc Players and Todd Productions.</p>
-    </section>
+   
 
     <section>
         <!-- <header> -->
@@ -98,7 +96,7 @@
                 </div>
 
                 <aside class="summer">
-                    <h3>Research Projects</h3>
+                    <h2>Research Projects</h2>
                         <ul>
                             <li><strong>Online Behavior Project</strong> - Comparing online behavior during COVID-19 to online
                             behavior pre-COVID-19 and examining the relationship between online behavior

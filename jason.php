@@ -8,20 +8,16 @@
         <a href="index.php" target="_self" class="title_link"><h1>Jason Katzner</h1></a>
         <div class="top">
             <img src="images/jason.jpg" alt="Jason">
+			<p>Jason Katzner (he/him) is a member of the University of Rochester class of 2021 majoring in Computer Science. He is also in the GRADE program, studying Online Teaching & Learning. He also studies Linguistics and Technical Theater. Outside of his studies, he lives on the Computer Interest Floor, plays tabletop roleplaying games, and LARPs.</p>
             <ul>
-                <li>University of Rochester, Class of 2021</li>
                 <li>Major: Computer Science</li>
                 <li>Minor: Linguistics</li>
                 <li>Cluster: Theater Production</li>
             </ul>
         </div>
     </header>
-
-    <section>
-        <h2>Overview</h2>
-            <p>Jason Katzner (he/him) is a member of the University of Rochester class of 2021 majoring in Computer Science. He is also in the GRADE program, studying Online Teaching & Learning. He also studies Linguistics and Technical Theater. Outside of his studies, he lives on the Computer Interest Floor, plays tabletop roleplaying games, and LARPs.</p>
-    </section>
-
+	
+	
     <section>
         <!-- <header> -->
         <h2>Interests</h2>
@@ -158,6 +154,7 @@
 		</div>
     </section>
 	
+	
     <section>
         <!-- <header> -->
         <h2>About the Images</h2>
@@ -206,6 +203,7 @@
             removed to make # of pictures a multiple of three -->
         </div>
     </section>
+	
 
     <?php include "inc/scripts.php"; ?>
 

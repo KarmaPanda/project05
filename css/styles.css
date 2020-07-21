@@ -31,7 +31,7 @@
 	Positioning
 	******************************************* */
 	
-.container {
+.containerz {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 1200px;
@@ -74,7 +74,7 @@ footer.persistent { bottom: 0; }
 
 /*	Flex positioning of the four quadrants
 	************************************** */
-header .container, footer .container, .l-fpattern { 
+header .containerz, footer .containerz, .l-fpattern { 
 	display: flex;
 	justify-content: space-between;
 }
@@ -122,7 +122,7 @@ header .container, footer .container, .l-fpattern {
   color: white;
   border-bottom: 1px dashed white;
 }
-/*end of Kostin*/
+/*end of Kostin bear inspired*/
 
 
 
@@ -134,8 +134,6 @@ header .container, footer .container, .l-fpattern {
 
 body 
 {
-	/* background: rgb(255,255,255); */
-	/* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,233,255,1) 100%); */
 	background-image: url(../images/ccool-background.png);
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -144,10 +142,8 @@ body
 
 h1
 {
-	/* font-size: 35px;
-  color: blue; */
   font-size: 42px;
-  color: orange;
+  color: hotpink;
 }
 
 h2
@@ -254,11 +250,10 @@ ul
  .top
 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 50px;
-  grid-column-gap: 0px;
-  justify-content: center; 
+  padding-top: 0px;
 }
 
 .one, .two, .three
@@ -296,8 +291,6 @@ ul
 	grid-column: 3;
 }
 
-
-
 .roc, .i
 {
 	grid-row: 1;
@@ -319,7 +312,13 @@ ul
 .top ul
 {
   grid-row: 1;
-  grid-column: 2;
+  grid-column: 3;
+}
+
+.top p
+{
+	grid-row: 1;
+	grid-column: 2;
 }
 
 .text 
@@ -378,7 +377,6 @@ article a
 .rel
 {
   position: relative;
-  /* margin: auto; */
 }
 
 .f-page h2
@@ -396,9 +394,6 @@ article a
 {
   display: contents;
 }
-
-
-
 
 /* *****************
     Modules
@@ -420,11 +415,7 @@ article a
 .f-page-link-adria
 {
   color: white;
-  /* border-bottom: 1px solid #6e6e6e; */
   margin: auto;
-  /* margin: 0; */
-  /* position: absolute; */
-  /* top: 33%; */
   text-align: center;
   grid-row: 3;
   grid-column: 3;
@@ -462,7 +453,6 @@ article a
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: 15px;
-  /* color: gray; */
   text-align: center;
 }
 
@@ -483,7 +473,6 @@ article a
 .f-page-link-adria:hover, .f-page-link-jason:hover, .f-page-link-yilin:hover
 {
   color: orange;
-  /* border-bottom: 1px solid #27496d; */
 }
 
 .box:hover .overlay 

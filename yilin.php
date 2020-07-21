@@ -7,18 +7,16 @@
         <a href="index.php" target="_self"><h1>Yilin Luo</h1></a>
         <div class="top">
             <img src="images/yilinluo.jpg" alt="Yilin Luo">
-            <ul>
+            <p>Yilin Luo is a member of the University of Rochester, class of 2021. She double majored in Computer Science and Studio Arts. Her focus is Human Computer Interaction. With the passion to improve technology UX, she interned at Open Letter Books in summer 2021 as a Website Developer and Marketing Intern. Yilin is keen on bringing enjoyment in arts, she has also volunteered as an art workshop leader at Huther Doyle.</p>
+			<ul>
                 <li>Major: BA in Computer Science, HCI Track</li>
-                <li>Second Major: Studio Arts</li>
+                <li>Major: Studio Arts</li>
                 <li>Cluster: Linguistics</li>
             </ul>
-        </div>
+	   </div>
     </header>
 
-    <section>
-        <h2>Overview</h2>
-            <p>Yilin Luo is a member of the University of Rochester, class of 2021. She double majored in Computer Science and Studio Arts. Her focus is Human Computer Interaction. With the passion to improve technology UX, she interned at Open Letter Books in summer 2021 as a Website Developer and Marketing Intern. Yilin is keen on bringing enjoyment in arts, she has also volunteered as an art workshop leader at Huther Doyle.</p>
-    </section>
+    
 
     <section>
     <!-- <header> -->
@@ -95,7 +93,7 @@
                 </div>
 
                 <aside class="summer">
-                    <h3>Research Projects</h3>
+                    <h2>Research Projects</h2>
                         <ul>
                             <li><strong>Digital Media Studies</strong> - Researching college students' interation with media- what they react to and what they look for</li>
                             <li><strong>Museum Project</strong> - Researching artworks in Memorial Art Gallery's collection. The product was an art exhibition curated and designed by Yilin and her classmates</li>
@@ -118,7 +116,7 @@
 
                 <div class="summer">
                     <h3>Member, Society of Women Engineers</h3>
-                    <h3>Member of Women in Computer Science</h3>
+                    <h3>Member, Women in Computer Science</h3>
                 </div>
             </div>
     </section>
@@ -126,7 +124,7 @@
     <section>
         <!-- <header> -->
         <h2>About the Art</h2>
-            <p>This is a sample of my artworks. I pursue precision and realism in my arts. My favourite media are acrylic, watercolor, charcoal, pencil sketches, and oil painting. </p>
+            <p>"This is a sample of my artworks. I pursue precision and realism in my arts. My favourite media are acrylic, watercolor, charcoal, pencil sketches, and oil painting."</p>
         <!-- </header> -->
             <h3>Art Portfolio</h3>
                 <div class="jason-grid">

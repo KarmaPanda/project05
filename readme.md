@@ -27,5 +27,6 @@
 - [ ] Fix mobile design (if time permits)
 - [x] Add back the logo on the pages, find a good one
 - [x] Complete CSS architecture
-- [ ] Adjust margins and layout according to the rule of thirds
+- [x] Adjust margins and layout according to the rule of thirds
 - [x] Adjust pictures according to the rule of thirds
+- [ ] Fix alignment issues with text
