@@ -254,8 +254,8 @@ ul
   grid-template-rows: 1fr;
   /* grid-gap: 50px; */
   padding-top: 0px;
-  border: 1px solid ghostwhite; /* feel free to change */
-  background: ghostwhite; /* feel free to change */
+  border: 1px solid #eee; /* feel free to change */
+  background: #eee; /* feel free to change */
   border-radius: 5px;
   padding: 5px;
 
@@ -364,7 +364,8 @@ ul
   padding: 10px 0px 10px 15px;
   margin-bottom: 0px;
   margin-top: 0px;
-  border-bottom: 0.5px solid white;
+  /* border-bottom: 0.5px solid white; */
+  border-bottom: 0.5px solid grey;
   color: blue;
 }
 
