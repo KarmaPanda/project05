@@ -12,6 +12,7 @@
 	- White text to be read on the darker background
 	- Light gray selection property to contrast with the dark background
 	- Gray accents in places to not contrast with the bright colors
+	- Logo was picked due to its bright colors contrasting with the dark background
 
 ## To Do
 ### Alejandro
@@ -22,8 +23,9 @@
 - [x] Fix paragraph sizes
 - [x] Fix z-page header/footer colored bar
 - [x] Update hover on z-page to not be red
-- [ ] Write out our reasons for choosing the CSS we did
+- [x] Write out our reasons for choosing the CSS we did
 - [ ] Fix mobile design (if time permits)
 - [x] Add back the logo on the pages, find a good one
 - [ ] Complete CSS architecture
 - [ ] Adjust margins and layout according to the rule of thirds
+- [x] Adjust pictures according to the rule of thirds
