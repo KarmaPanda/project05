@@ -312,13 +312,14 @@ ul
 {
   grid-row: 1;
   grid-column: 1;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .top ul
 {
   grid-row: 1;
-  grid-column: 2/4;
+  /* grid-column: 2/4; */
+  grid-column: 1/4;
   margin-top: 0px;
   padding-left: 0px;
   margin-bottom: 0px;
@@ -327,18 +328,21 @@ ul
   list-style: none;
   border-top: 1px solid black;
   color: black;
+  margin-left: 275px;
 }
 
 .top p
 {
 	grid-row: 1;
-  grid-column: 2/4;
+  /* grid-column: 2/4; */
+  grid-column: 1/4;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 110px;
   line-height: 30px;
   max-width: 650px;
   color: black;
+  margin-left: 275px;
 }
 
 .text 

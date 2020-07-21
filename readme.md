@@ -18,7 +18,7 @@
 ### Alejandro
 - [x] Readability fixes
 - [x] Implement critiques/CRAP
-- [ ] Rewatch discussion and implement Kostin's comments
+- [x] Rewatch discussion and implement Kostin's comments
 - [x] Fix menu width on F-page
 - [x] Fix paragraph sizes
 - [x] Fix z-page header/footer colored bar
