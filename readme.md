@@ -20,7 +20,7 @@
 - [ ] Rewatch discussion and implement Kostin's comments
 - [ ] Fix menu width on F-page
 - [x] Fix paragraph sizes
-- [ ] Fix z-page header/footer colored bar
+- [x] Fix z-page header/footer colored bar
 - [x] Update hover on z-page to not be red
 - [ ] Write out our reasons for choosing the CSS we did
 - [ ] Fix mobile design (if time permits)
