@@ -252,8 +252,13 @@ ul
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 50px;
+  /* grid-gap: 50px; */
   padding-top: 0px;
+  border: 1px solid ghostwhite; /* feel free to change */
+  background: ghostwhite; /* feel free to change */
+  border-radius: 5px;
+  padding: 5px;
+
 }
 
 .one, .two, .three
@@ -307,18 +312,33 @@ ul
 {
   grid-row: 1;
   grid-column: 1;
+  margin: auto;
 }
 
 .top ul
 {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 2/4;
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  align-self: end;
+  padding-top: 5px;
+  list-style: none;
+  border-top: 1px solid black;
+  color: black;
 }
 
 .top p
 {
 	grid-row: 1;
-	grid-column: 2;
+  grid-column: 2/4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 110px;
+  line-height: 30px;
+  max-width: 650px;
+  color: black;
 }
 
 .text 
