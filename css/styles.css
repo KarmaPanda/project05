@@ -261,12 +261,12 @@ ul
 	grid-row: 1;
 }
 
-.four, .five, .six, 
+.four, .five, .six 
 {
 	grid-row: 2;
 }
 
-.seven, .eight, .nine, 
+.seven, .eight, .nine
 {
 	grid-row: 3;
 }
