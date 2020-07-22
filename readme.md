@@ -15,7 +15,7 @@
 	- Logo was picked due to its bright colors contrasting with the dark background
 
 ## To Do
-### Alejandro
+
 - [x] Readability fixes
 - [x] Implement critiques/CRAP
 - [x] Rewatch discussion and implement Kostin's comments
@@ -24,7 +24,7 @@
 - [x] Fix z-page header/footer colored bar
 - [x] Update hover on z-page to not be red
 - [x] Write out our reasons for choosing the CSS we did
-- [ ] Fix mobile design (if time permits)
+- [x] Fix mobile design (if time permits)
 - [x] Add back the logo on the pages, find a good one
 - [x] Complete CSS architecture
 - [x] Adjust margins and layout according to the rule of thirds
