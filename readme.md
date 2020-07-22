@@ -29,4 +29,4 @@
 - [x] Complete CSS architecture
 - [x] Adjust margins and layout according to the rule of thirds
 - [x] Adjust pictures according to the rule of thirds
-- [ ] Fix alignment issues with text
+
