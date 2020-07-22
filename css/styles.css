@@ -542,6 +542,7 @@ article a
     width: 100%;
     min-width: 200px;
   }
+
 }
 
 @media(max-width: 760px)
@@ -558,4 +559,9 @@ article a
 	.z-page p, .z-page h2{
 		display: none;
 	}
+	
+	 .top
+  {
+	  display: block;
+  }
 }
