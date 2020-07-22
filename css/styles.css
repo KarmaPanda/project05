@@ -119,7 +119,7 @@ header .containerz, footer .containerz, .l-fpattern {
 
 .login-button
 {
-  color: white;
+  color: orange;
   border-bottom: 1px dashed white;
 }
 /*end of Kostin bear inspired*/
@@ -439,7 +439,7 @@ article a
 
 .f-page-link-adria
 {
-  color: white;
+  color: lightgray;
   margin: auto;
   text-align: center;
   grid-row: 3;
@@ -449,7 +449,7 @@ article a
 
 .f-page-link-jason
 {
-  color: white;
+  color: lightgray;
   margin: auto;
   text-align: center;
   grid-row: 4;
@@ -459,7 +459,7 @@ article a
 
 .f-page-link-yilin
 {
-  color: white;
+  color: lightgray;
   margin: auto;
   text-align: center;
   grid-row: 5;
