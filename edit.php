@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
 			$link = $row['link'];
 
 			// show form
-			renderForm($id, $firstname, $lastname, $photo, $info, $link '');
+			renderForm($id, $firstname, $lastname, $photo, $info, $link, '');
 		} else {
 			// if no match, display result
 			echo "No results!";
