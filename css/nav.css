@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant|Open+Sans&display=swap');
+
+/* *****************
+    Modules
+***************** */
+
+.menu
+{
+    grid-column: 1/4;
+}
 
 .menu ul 
 {  
@@ -6,7 +14,8 @@
     box-sizing: border-box;
     display: flex;
     padding-left: 0; 
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: flex-end;
     margin-bottom: 0px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(96, 96, 96, 0.1);
@@ -17,7 +26,7 @@
     margin-left: 30px;
     text-decoration: none;
     display: inline;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .menu a 
@@ -28,16 +37,31 @@
     letter-spacing: 1px;
     font-weight: 600;  
     vertical-align: middle;
-    color: black;
+    color: lightgray;
+}
+
+/* *****************
+    States
+***************** */
+
+.menu a.is-current 
+{
+    color: orange;
+    font-weight: 900;  
+}
+
+.menu a.is-current:hover
+{
+	color: hotpink;
 }
 
 .menu a:hover 
 {  
-    color: #ff4500; 
+    color: slateblue;
 }
 
-.menu a.is-current 
+.menu figure 
 {
-    color: #0075db;
-    font-weight: 900;  
+    float: left;
+    margin: 0px;
 }

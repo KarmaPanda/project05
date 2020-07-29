@@ -1,9 +1,32 @@
-#Team Chicago
-Adira Blumenthal, Jason Katzner, Yilin Luo
+# Team Chicago
+- Molly Kilian
+- Joseph Madejski
+- Alejandro Ramirez
 
+## Choices
+- Because each one of the students on our page are majoring in computer science, we chose the following design:
+	- Blue, white, and black technical background for a CSC feel
+	- Orange, blue, light blue and hot pink accents for a neon feel
+	- Stars on the read more images to relate to advancing technologies and art
+	- Fonts chosen are computer science like
+	- White text to be read on the darker background
+	- Light gray selection property to contrast with the dark background
+	- Gray accents in places to not contrast with the bright colors
+	- Logo was picked due to its bright colors contrasting with the dark background
 
-## Classes and Relationships
-We focused our website on a few things that we all had in common. We are all students at the University of Rochester majoring in Computer Science. We focus a lot of our website on our educational interests, coding skills, work experience, and courses we have taken. Towards the bottom of our pages we shift to talking about our extracurriculars, mentioning the clubs we are a part of and displaying portfolios of some of our work. (Note: All of the images have the same width but due to the varying dimensions of the original pictures it was not possible for them all to have the same height and width in the portfolio section.)
+## To Do
 
-## Choreography
-On each subpage, we start with an overview of who that group member is, mentioning background information such as their hometown, major, and class year. Then continue with general information about each person's academic interests. Then we go into more specifics about our educational background, our coding skills, and work experiences. We started with a broad overview of who we are and what we are interested in and then we state our qualifications with our educational background, skills, and work experiences. Then we show our extracurricular interests to show our well-roundedness when we talk about our club involvement and display our portfolios. 
+- [x] Readability fixes
+- [x] Implement critiques/CRAP
+- [x] Rewatch discussion and implement Kostin's comments
+- [x] Fix menu width on F-page
+- [x] Fix paragraph sizes
+- [x] Fix z-page header/footer colored bar
+- [x] Update hover on z-page to not be red
+- [x] Write out our reasons for choosing the CSS we did
+- [x] Fix mobile design (if time permits)
+- [x] Add back the logo on the pages, find a good one
+- [x] Complete CSS architecture
+- [x] Adjust margins and layout according to the rule of thirds
+- [x] Adjust pictures according to the rule of thirds
+
