@@ -39,17 +39,13 @@
             // 3. Use returned data (if any)
             while($data = mysqli_fetch_assoc($result)) {
         ?>
-            <figure>
-                <?php echo "<img src=\"$photo\"/>";?>
-            </figure>
-
-
+        
+           
             <article>
                 <h2><?php echo $data["firstName"], " ", $data["lastName"];?></h2>
                     <p><?php echo $data["info"];?></p>
             </article>
-
-                    <a href="<?php echo $link;?>" class="f-page-link-adria"><img src="images/stars_resized.png" alt="view page stars"><div>Read More!</div></a>
+                    
         }
 </div>
 
