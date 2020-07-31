@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 
 		} else {
 			// save the data to the database
-			$result = mysqli_query($connection, "UPDATE classinfo SET firstname='$firstname', lastname='$lastname', quote='$quote', info='$info' link='$link' WHERE id='$id'");
+			$result = mysqli_query($connection, "UPDATE classinfo SET firstname='$firstname', lastname='$lastname', quote='$quote', info='$info', link='$link' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
 			header("Location: db.php");
