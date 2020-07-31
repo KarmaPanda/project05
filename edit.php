@@ -12,21 +12,21 @@ if (isset($_POST['submit'])) {
 		$id = $_POST['id'];
 		$firstname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['firstname']));
 		$lastname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['lastname']));
-		$photo = mysqli_real_escape_string($connection, htmlspecialchars($_POST['photo']));
+		$quote = mysqli_real_escape_string($connection, htmlspecialchars($_POST['quote']));
 		$info = mysqli_real_escape_string($connection, htmlspecialchars($_POST['info']));
 		$link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
 
 		// check that firstname/lastname fields are both filled in
-		if ($firstname == '' || $lastname == '' || $photo =='' || $info == '' || $link == '') {
+		if ($firstname == '' || $lastname == '' || $quote == '' || $info == '' || $link == '') {
 			// generate error message
 			$error = 'ERROR: Please fill in all required fields!';
 
 			//error, display form
-			renderForm($id, $firstname, $lastname, $error, $photo, $info, $link);
+			renderForm($id, $firstname, $lastname, $quote, $info, $link, $error);
 
 		} else {
 			// save the data to the database
-			$result = mysqli_query($connection, "UPDATE classinfo SET firstname='$firstname', lastname='$lastname', photo='$photo', info='$info' link='$link' WHERE id='$id'");
+			$result = mysqli_query($connection, "UPDATE classinfo SET firstname='$firstname', lastname='$lastname', quote='$quote', info='$info', link='$link' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
 			header("Location: db.php");
@@ -49,12 +49,12 @@ if (isset($_POST['submit'])) {
 			// get data from db
 			$firstname = $row['firstname'];
 			$lastname = $row['lastname'];
-			$photo = $row['photo'];
+			$quote = $row['quote'];
 			$info = $row['info'];
 			$link = $row['link'];
 
 			// show form
-			renderForm($id, $firstname, $lastname, $photo, $info, $link, '');
+			renderForm($id, $firstname, $lastname, $quote, $info, $link, '');
 		} else {
 			// if no match, display result
 			echo "No results!";

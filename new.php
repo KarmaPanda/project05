@@ -10,20 +10,20 @@ if (isset($_POST['submit'])) {
 	$firstname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['firstname']));
 	$lastname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['lastname']));
 	$info = mysqli_real_escape_string($connection, htmlspecialchars($_POST['info']));
-	$photo = mysqli_real_escape_string($connection, htmlspecialchars($_POST['photo']));
+	$quote = mysqli_real_escape_string($connection, htmlspecialchars($_POST['quote']));
 	$link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
 
 	// check to make sure both fields are entered
-	if ($firstname == '' || $lastname == '' || $photo =='' || $info =='' || $link =='') {
+	if ($firstname == '' || $lastname == '' || $quote =='' || $info =='' || $link =='') {
 		// generate error message
 		$error = 'ERROR: Please fill in all required fields!';
 
 		// if either field is blank, display the form again
-		renderForm($id, $firstname, $lastname, $error, $photo, $info, $link);
+		renderForm($id, $firstname, $lastname, $error, $quote, $info, $link);
 
 	} else {
 		// save the data to the database
-		$result = mysqli_query($connection, "INSERT INTO classinfo (firstname, lastname, photo, info, link) VALUES ('$firstname', '$lastname', '$photo', '$info', '$link')");
+		$result = mysqli_query($connection, "INSERT INTO classinfo (firstname, lastname, quote, info, link) VALUES ('$firstname', '$lastname', '$quote', '$info', '$link')");
 
 		// once saved, redirect back to the view page
 		header("Location: db.php");

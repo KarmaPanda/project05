@@ -402,6 +402,11 @@ article a
   margin-top: 0px;
 }
 
+.f-page section
+{
+  margin-left: 10px;
+}
+
 #f-page-div
 {
   display: contents;

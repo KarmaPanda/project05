@@ -18,7 +18,7 @@ $result = mysqli_query($connection, "SELECT * FROM classinfo");
     <th>First Name</th>
     <th>Last Name</th>
     <th>Blurb</th>
-    <th>Photo</th>
+    <th>Quote</th>
     <th>Link</th>
     <th colspan="2"><em>functions</em></th>
   </tr>
@@ -30,7 +30,7 @@ while($row = mysqli_fetch_array( $result )) {
     <td><?php echo $row['firstname']; ?></td>
     <td><?php echo $row['lastname']; ?></td>
     <td><?php echo $row['info']; ?></td>
-    <td><?php echo $row['photo']; ?></td>
+    <td><?php echo $row['quote']; ?></td>
     <td><?php echo $row['link']; ?></td>
     <td><a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
     <td><a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
