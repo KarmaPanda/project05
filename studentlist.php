@@ -36,17 +36,21 @@
 
     <div id = "f-page-div" class = "f-page">
         <?php
-            // 3. Use returned data (if any)
-            while($data = mysqli_fetch_assoc($result)) {
-        ?>
-        
-           
-            <article>
-                <h2><?php echo $data["firstName"], " ", $data["lastName"];?></h2>
+        // 3. Use returned data (if any)
+        while($data = mysqli_fetch_assoc($result)) {
+    ?>
+<!-- instead of figure -->
+        <section>
+            <p><?php echo $data["quote"];?></p>
+        </section>
+
+        <article>
+                <h2><?php echo $data["firstname"], " ", $data["lastname"];?></h2>
                     <p><?php echo $data["info"];?></p>
-            </article>
-                    
-        }
+                    <a href="<?php echo $data["link"];?>" class="f-page-link-adria"><img src="images/stars_resized.png" alt="view page stars"><div>Read More!</div></a>
+        </article>
+    <?php } ?>
+
 </div>
 
 
