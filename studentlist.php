@@ -46,9 +46,11 @@
 
         <article>
                 <h2><?php echo $data["firstname"], " ", $data["lastname"];?></h2>
-                    <p><?php echo $data["info"];?></p>
-                    <a href="<?php echo $data["link"];?>" class="f-page-link-adria"><img src="images/stars_resized.png" alt="view page stars"><div>Read More!</div></a>
+                <p><?php echo $data["info"];?></p>
         </article>
+
+        <a href="<?php echo $data["link"];?>" class="f-page-link-adria"><img src="images/stars_resized.png" alt="view page stars"><div>Read More!</div></a>
+        
     <?php } ?>
 
 </div>
