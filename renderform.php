@@ -28,7 +28,7 @@ if ($error != '') {
 		<label for="lastname"><strong>Last Name: *</strong></label> <input type="text" name="lastname" id="lastname" value="<?php echo $lastname; ?>"/><br>
 		<br>
 		<h3>Upload a photo here! Select your favorite profile shot of yourself- please use a portrait size and style (200px X 300px).</h3>
-		<h4>(I love dog pictures as much as the next girl, but we really, really want people to look at the other pages too.)</h4>
+		<h4>(I love dog pictures as much as the next girl, but we want people to look at the other pages too.)</h4>
 		<label for="photo"><strong>Photo: *</strong></label> <input type="file" name="photo" id="photo" value="<?php echo $photo; ?>"/><br><br>
 		<h3>Write a couple sentences about yourself.</h3>
 		<h4>(For the sake of brevity, pretty please keep it to 80 words or under.)</h4>
