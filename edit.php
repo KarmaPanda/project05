@@ -17,16 +17,16 @@ if (isset($_POST['submit'])) {
 		$link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
 
 		// check that firstname/lastname fields are both filled in
-		if ($firstname == '' || $lastname == '' || $quote =='' || $info == '' || $link == '') {
+		if ($firstname == '' || $lastname == '' || $quote == '' || $info == '' || $link == '') {
 			// generate error message
 			$error = 'ERROR: Please fill in all required fields!';
 
 			//error, display form
-			renderForm($id, $firstname, $lastname, $error, $quote, $info, $link);
+			renderForm($id, $firstname, $lastname, $quote, $info, $link, $error);
 
 		} else {
 			// save the data to the database
-			$result = mysqli_query($connection, "UPDATE classinfo SET firstname='$firstname', lastname='$lastname', quote='$quote', info='$info' link='$link' WHERE id='$id'");
+			$result = mysqli_query($connection, "UPDATE classinfo SET firstname='$firstname', lastname='$lastname', quote='$quote', info='$info', link='$link' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
 			header("Location: db.php");

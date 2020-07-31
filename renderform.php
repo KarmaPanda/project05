@@ -1,6 +1,6 @@
 <?php
 // creates the edit record form
-function renderForm($id, $firstname, $lastname, $error, $info, $quote, $link) {
+function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 ?>
 
 
