@@ -26,16 +26,16 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 
 <form action="" method="post">
 
-	<input type="hidden" name="id" value="<?php echo $id; ?>">
+<!-- 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 	<strong>First Name: *</strong> <input type="text" name="firstname" value="<?php echo $firstname; ?>"/><br>
 	<strong>Last Name: *</strong> <input type="text" name="lastname" value="<?php echo $lastname; ?>"/><br>
 	<strong>Favorite Quote: *</strong> <input type="text" name="quote" value="<?php echo $quote; ?>"/><br>
 	<strong>Blurb About You: *</strong> <input type="text" name="info" value="<?php echo $info; ?>"/><br>
 	<strong>Link to Personal Page: *</strong> <input type="text" name="link" value="<?php echo $link; ?>"/><br>
 	<div>* required</div>
-	<input type="submit" name="submit" value="Submit">
+	<input type="submit" name="submit" value="Submit"> -->
 
-	<!-- <fieldset>
+	<fieldset>
 		<legend>Tell us a little about yourself...</legend>
 		<h1>We'll make you a magnificent profile — </h1>
 		<h2>Give us a little background information so that we can get started.</h2>
@@ -57,7 +57,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 		<br><br>
 		<input type="submit" name="submit" id="submit" value="Submit">
 	</fieldset>
-		<br><br> -->
+		<br><br>
 
 </form>
 
