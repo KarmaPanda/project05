@@ -12,7 +12,7 @@
 		<div class="strong">
 			<!-- Strong Fallow Area -->
 			<!-- <a href="login.php" class="login-button">Login</a> -->
-			<a href="db.php" class="login-button">Your Account</a>
+			<a href="portal.php" class="login-button">Your Account</a>
 		</div>
 	</div><!-- .containerz -->
 </header>
