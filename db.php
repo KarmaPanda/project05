@@ -14,7 +14,6 @@ include('connect-db.php');
 // get results from database
 $result = mysqli_query($connection, "SELECT * FROM classinfo");
 ?>
-
 <a href="new.php" class="plus_new">New Record</a>
 
 
