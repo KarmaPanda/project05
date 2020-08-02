@@ -54,7 +54,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 
 <div>
 	<br>
-	<a href="db.php">Cancel</a>
+	<a href="portal.php">Cancel</a>
 </div>
 
 </body>

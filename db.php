@@ -47,7 +47,7 @@ while($row = mysqli_fetch_array( $result )) {
 
 <div>
   <br>
-  <a href="index.php">Cancel</a>
+  <a href="portal.php">Cancel</a>
 </div>
 </body>
 </html>
