@@ -223,7 +223,8 @@ ul
 	height: auto;
 }
 
-.fgrid{
+.fgrid
+{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
@@ -232,7 +233,28 @@ ul
   justify-content: center;
 }
 
-.grid, .interests, .edu{
+.dbgrid 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    grid-column-gap: 0px;
+    justify-content: center;
+}
+
+.dbgrid table 
+{
+  grid-row: 2;
+}
+
+.dbgrid div 
+{
+  grid-row: 3;
+}
+
+.grid, .interests, .edu
+{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
