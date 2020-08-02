@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Class Info</title>
+  <link rel="stylesheet" type="text/css" href="css/renderform.css">
+
 </head>
 <body>
 <?php
@@ -12,6 +14,8 @@ include('connect-db.php');
 // get results from database
 $result = mysqli_query($connection, "SELECT * FROM classinfo");
 ?>
+<a href="new.php" class="plus_new">New Record</a>
+
 
 <table border>
   <tr>
@@ -43,7 +47,7 @@ while($row = mysqli_fetch_array( $result )) {
 
 <div>
   <br>
-	<a href="new.php">Add a new record</a>
+  <a href="index.php">Cancel</a>
 </div>
 </body>
 </html>

@@ -15,7 +15,7 @@
 	   <div>Username: _______</div>
 	   <div>Password: _______</div>
 	   <div>Go!</div>
-	   <div><a href="index.php">Go back</a></div>
+	   <div><a href="index.php">Cancel</a></div>
     </header>
 </body>
 
