@@ -238,21 +238,57 @@ ul
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 30px;
+    grid-gap: 0px;
     grid-column-gap: 0px;
     justify-content: center;
 }
 
-.dbgrid table 
+table 
 {
   grid-row: 2;
-  table-layout: auto;
-  width: 100%;
+  table-layout: fixed;
+  margin-top: 40px;
+}
+
+td {
+  word-break: break-all;
+}
+
+th.col-fname {
+  width: 15%;
+}
+
+th.col-lname {
+  width: 20%;
+}
+
+th.col-blurb {
+  width: 55%;
+}
+
+th.col-quote {
+  width: 20%;
+}
+
+th.col-link {
+  width: 15%;
+}
+
+th.col-functions {
+  width: 25%;
 }
 
 .dbgrid div 
 {
   grid-row: 3;
+}
+
+.db-buttons {
+  margin-top: 20px;
+}
+
+.db-buttons a:nth-of-type(2) {
+  float: right;
 }
 
 .grid, .interests, .edu

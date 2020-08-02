@@ -43,12 +43,12 @@ $result = mysqli_query($connection, "SELECT * FROM classinfo");
 <table class="table table-bordered table-secondary">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Blurb</th>
-      <th scope="col">Quote</th>
-      <th scope="col">Link</th>
-      <th scope="col" colspan="2"><em>functions</em></th>
+      <th class="col-fname" scope="col">First Name</th>
+      <th class="col-lname" scope="col">Last Name</th>
+      <th class="col-blurb" scope="col">Blurb</th>
+      <th class="col-quote" scope="col">Quote</th>
+      <th class="col-link" scope="col">Link</th>
+      <th class="col-functions" scope="col" colspan="2"><em>functions</em></th>
     </tr>
   </thead>
 <?php
@@ -62,8 +62,8 @@ while($row = mysqli_fetch_array( $result )) {
       <td><?php echo $row['info']; ?></td>
       <td><?php echo $row['quote']; ?></td>
       <td><?php echo $row['link']; ?></td>
-      <td><a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
-      <td><a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
+      <td><a class="badge badge-warning" href="edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
+      <td><a class="badge badge-danger" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
     </tr>
   </tbody>
 <?php
@@ -72,11 +72,10 @@ while($row = mysqli_fetch_array( $result )) {
 ?>
 </table>
 
-<div>
+<div class="db-buttons">
 
-  <br>
-  <a href="portal.php">Cancel</a>
-  <a class="btn btn-info" href="new.php">Add a new record</a>
+  <a class="btn btn-secondary" href="portal.php">Cancel</a>
+  <a class="btn btn-primary" href="new.php">Add a new record</a>
   <!-- <a href="new.php" class="plus_new">New Record</a> -->
 
 </div>
