@@ -246,6 +246,8 @@ ul
 .dbgrid table 
 {
   grid-row: 2;
+  table-layout: auto;
+  width: 100%;
 }
 
 .dbgrid div 
