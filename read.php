@@ -12,7 +12,7 @@
 	$result = mysqli_query($connection, $query);
 ?>
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<title>Database Read</title>
 </head>
