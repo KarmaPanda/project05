@@ -8,5 +8,5 @@
 
 .btn {
 	max-width: 100%;
-	width: 80px;
+	min-width: 100px;
 }
