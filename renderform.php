@@ -61,11 +61,11 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 					<label for="quote"><strong>quote: *</strong></label>
 					<textarea class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"></textarea>
 				</div>
-				<div class="col-10">
+				<!-- <div class="col-10">
 					<h4>20 words or under is ideal - this is the perfect place for a haiku, not so much a full-page poem.</h4>
 					<label for="quote"><strong>quote: *</strong></label>
 					<textarea class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"></textarea>
-				</div>
+				</div> -->
 			</div>
 		</div>
 
@@ -88,9 +88,12 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 				</div>
 			</div>
 		</div>
-		<div>* required</div>
-		
-		<input type="submit" name="submit" id="submit" value="Submit">
+		<div class="text-danger shadow-text font-weight-bolder">* required</div>
+		<div class="row">
+			<div class="col mt-4">
+				<input class="btn btn-success" type="submit" name="submit" id="submit" value="Submit">
+			</div>
+		</div>
 	</fieldset>
 		
 
