@@ -6,7 +6,7 @@
 			<!-- Primary Optical Area -->
 			<a href="index.php"><img src="images/logo_small.png" alt="Logo" id="padlogo"></a>
 		</div>
-		<div class="middle">CSC 174 - Advanced Front End Web Design and Development</div>
+		<h1 class="middle">CSC 174 - Advanced Front End Web Design and Development</h1>
 		</div>
 	</div><!-- .containerz -->
 </header>

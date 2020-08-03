@@ -49,6 +49,13 @@ table {
 
 }
 
+.middle {
+	font-size: 25px;
+	margin: 10px;
+	text-align: center;
+	align-content: center;
+}
+
 /* portal */
 .option {
 	background-color: indigo;
@@ -83,6 +90,10 @@ table {
 
 .shadow-text {
 	text-shadow: 3px 3px 5px black;
+}
+
+#padlogo {
+	padding-right: 8px;
 }
 
 #padlogo:hover {
