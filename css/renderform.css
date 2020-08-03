@@ -52,6 +52,12 @@
 	text-align: left; 
 }
 
+fieldset {
+	margin: 50px;
+	padding: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+}
 
 table {
 	margin-top: 20px;
