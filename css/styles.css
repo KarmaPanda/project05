@@ -255,23 +255,23 @@ td {
 }
 
 th.col-fname {
-  width: 15%;
+  width: 90px;
 }
 
 th.col-lname {
-  width: 19%;
+  width: 113px;
 }
 
 th.col-blurb {
-  width: 55%;
+  width: 327px;
 }
 
 th.col-quote {
-  width: 25%;
+  width: 148px;
 }
 
 th.col-link {
-  width: 15%;
+  width: 89px;
 }
 
 th.col-functions {
