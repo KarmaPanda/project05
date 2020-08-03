@@ -1,3 +1,5 @@
+/* Code for portals and popup.php */
+
 /* *****************
     Base Styles
 ***************** */
@@ -24,7 +26,11 @@ table {
 
 
 .popup_container {
-	margin: 3%;
+	margin: 2%;
+	padding: 2% 2% 15% 2%;
+	border: 2px solid white;
+	border-radius: 15px;
+
 }
 
 /* *****************
