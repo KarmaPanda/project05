@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Account</title>
   <link rel="stylesheet" type="text/css" href="css/renderform.css">
 
   <!-- Bootstrap CSS -->
@@ -16,7 +17,7 @@
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
 
-	<title>Your Account</title>
+	
 </head>
 <body class="container dbgrid">
 <?php
