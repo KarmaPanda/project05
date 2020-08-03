@@ -465,7 +465,7 @@ article a
 
 .f-page p
 {
-  padding: 0px 10px 0px 12px;
+  padding-right: 10px;
 }
 
 .f-page section
@@ -482,6 +482,7 @@ article a
   color: #ffa1d0;
   font-weight: bold;
   font-size: 20px;
+  padding-left: 12px;
 }
 
 .f-page a

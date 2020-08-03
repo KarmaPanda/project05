@@ -20,5 +20,9 @@ IA:
 
 
 Visual Designer:
-
-
+- Implemented same background, fonts, and color scheme to new pages (portal.php, db.php, and renderform.php)
+- The layout for student list page (studentlist.php) was fixed to fit the new 'quote' content that replaced the 'photo' content
+- The database table (db.php) was styled using Bootstrap, using the table classes for styling and layout
+- Table column widths fixed with "table-layout: fixed" and manually setting the widths of each column
+- Buttons styled using Bootstrap. Specific colors used to convey meaning (e.g. red buttons for delete, conveying "danger" to user... yellow button for edit, conveying "warning" to user)
+- Renderform styled using Bootstrap. Built-in grid layout used to control the width of each input text area (typically shorter areas like first name are narrow, and longer areas like quote and wider)
