@@ -196,6 +196,13 @@ ul
 	margin: 0 auto;
 }
 
+.container-slist
+{
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
 .overlay 
 {
   position: absolute;

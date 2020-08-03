@@ -14,7 +14,7 @@
 
 <?php include "inc/html_top.php"; ?>
 
-<body class="container fgrid">
+<body class="container-slist fgrid">
 	<nav class="menu">
          <a href="index.php">
             <figure id="padlogo">
