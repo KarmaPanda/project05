@@ -3,7 +3,7 @@
 function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
