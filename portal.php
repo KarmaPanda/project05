@@ -19,6 +19,4 @@
 
 	<a href="db.php" class="option">Delete Profile</a>
 </body>
-
-	<a href="index.php" class="cancel">Cancel</a>
 </html>

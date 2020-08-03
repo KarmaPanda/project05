@@ -27,11 +27,8 @@
 	</nav>
 
     <header class="spans">
-        <h1>Team Chicago</h1>
-        <p>Team Chicago is a trio comprised of University
-            of Rochester students all majoring in Computer Science. Although all three major
-            in Computer Science, you'll find they each have their own charms and interests.
-            Read their profiles below to find out more about them.</p>
+        <h1>CSC 174</h1>
+        <p>Advanced Front End Web Development is a class on front-end web design. The second in a series after CSC 170: Intro to Web Development, CSC 174 explores web page design technically through Hypertext Markup Language (HTML), databases edited locally and remotely in MySQL, code in PHP, and more. Our focus on visual design and organization is backed up by studies in how the eye moves and in brain & cognitive science. It's great to meet you!</p>
     </header>
 
     <div id = "f-page-div" class = "f-page">
