@@ -4,7 +4,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Class Info</title>
@@ -29,7 +29,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 	}
 ?>
 
-<form action="" method="post">
+<form method="post">
 
 	<fieldset>
 		<legend>Tell us a little about yourself...</legend>

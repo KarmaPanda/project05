@@ -37,9 +37,9 @@
         while($data = mysqli_fetch_assoc($result)) {
     ?>
 <!-- instead of figure -->
-        <section>
+       <!--  <section> -->
             <p><?php echo $data["quote"];?></p>
-        </section>
+        <!-- </section> -->
 
         <article>
                 <h2><?php echo $data["firstname"], " ", $data["lastname"];?></h2>
