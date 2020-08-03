@@ -9,8 +9,8 @@ if (isset($_POST['submit'])) {
 	// get form data, making sure it is valid
 	$firstname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['firstname']));
 	$lastname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['lastname']));
-	$info = mysqli_real_escape_string($connection, htmlspecialchars($_POST['info']));
 	$quote = mysqli_real_escape_string($connection, htmlspecialchars($_POST['quote']));
+	$info = mysqli_real_escape_string($connection, htmlspecialchars($_POST['info']));
 	$link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
 
 	// check to make sure both fields are entered
@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 		$error = 'ERROR: Please fill in all required fields!';
 
 		// if either field is blank, display the form again
-		renderForm($id, $firstname, $lastname, $error, $quote, $info, $link);
+		renderForm($id, $firstname, $lastname, $quote, $info, $link, $error);
 
 	} else {
 		// save the data to the database

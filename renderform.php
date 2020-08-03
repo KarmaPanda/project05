@@ -37,7 +37,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 		<label for="lastname"><strong>Last Name: *</strong></label> <input type="text" name="lastname" id="lastname" value="<?php echo $lastname; ?>"/><br>
 		<br>
 		<h3>Upload a quote here! Select your favorite quote or short poem.</h3>
-		<h4>20 words or under is ideal - this is the perfect place for a haiku, not so much a full-length poem.</h4>
+		<h4>20 words or under is ideal - this is the perfect place for a haiku, not so much a full-page poem.</h4>
 		<label for="quote"><strong>quote: *</strong></label><textarea name="quote" id="quote" value="<?php echo $quote; ?>"></textarea><br><br>
 		<h3>Write a couple sentences about yourself.</h3>
 		<h4>(For the sake of brevity, pretty please keep it to 80 words or under.)</h4>
