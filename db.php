@@ -17,8 +17,8 @@
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
 
-	
 </head>
+
 <body class="container dbgrid">
 <?php
 // connect to the database
