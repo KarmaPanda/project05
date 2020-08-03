@@ -1,4 +1,35 @@
-/* renderform.php css- move this??? */
+/* *****************
+    Base Styles
+***************** */
+fieldset {
+	margin: 50px;
+	padding: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+table {
+	margin-top: 20px;
+}
+
+/* *****************
+    Layout Styles
+***************** */
+.container_portal {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 85px;
+}
+
+
+.popup_container {
+	margin: 3%;
+}
+
+/* *****************
+    Modules
+***************** */
 #info {
   min-width: 400px;
   min-height: 100px;
@@ -12,14 +43,8 @@
 
 }
 
-.container_portal {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-top: 85px;
-}
-
+/* portal */
 .option {
-	
 	background-color: indigo;
 	border-radius: 3px;
 	align-content: center;
@@ -37,20 +62,17 @@
 	background-color: #82538c;
 }
 
-.plus_new {
-	margin-left: 85%;
-	color: forestgreen;
-	padding: 5px;
-	padding-left: 30px;
-	padding-bottom: 30px;
-	/* clip art from webstockreview.net */
-	background-image: url(../images/plus.png);
-	background-repeat: no-repeat;
+.popup_container a {
+	margin: 20px 40px 0px 0px;
 }
 
-.cancel {
-	grid-column: 1/2;
-	text-align: left; 
+.popup_container a:hover {
+	color: lightblue;
+}
+
+
+.meet {
+	color: #ffcc80;
 }
 
 .shadow-text {
@@ -65,6 +87,3 @@ fieldset {
 	margin-bottom: 20px;
 }
 
-table {
-	margin-top: 20px;
-}

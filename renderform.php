@@ -58,7 +58,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 		<div class="form-group">
 			<div class="row">
 				<div class="col-10">
-					<label for="quote"><strong>quote: *</strong></label>
+					<label for="quote"><strong>Quote: *</strong></label>
 					<textarea class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"></textarea>
 				</div>
 			</div>

@@ -25,10 +25,8 @@ if (isset($_POST['submit'])) {
 		// save the data to the database
 		$result = mysqli_query($connection, "INSERT INTO classinfo (firstname, lastname, quote, info, link) VALUES ('$firstname', '$lastname', '$quote', '$info', '$link')");
 
-		// once saved, redirect back to the view page
-		header("Location: inc/popup.php");
-
-		/* include "inc/popup.php"; */
+		// once saved, redirect to confirmation page
+		header("Location: popup.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form
