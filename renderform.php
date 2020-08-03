@@ -96,9 +96,8 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 
 </form>
 
-<div>
-	
-	<a href="portal.php">Cancel</a>
+<div class="rf-buttons">
+	<a class="btn btn-secondary" href="portal.php">Cancel</a>
 </div>
 
 <!-- Javascript for Bootstrap -->
