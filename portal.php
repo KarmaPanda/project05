@@ -4,7 +4,7 @@
 	<div class="containerz">
 		<div class="primary">
 			<!-- Primary Optical Area -->
-			<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+			<a href="index.php"><img src="images/logo_small.png" alt="Logo" id="padlogo"></a>
 		</div>
 		<div class="middle">CSC 174 - Advanced Front End Web Design and Development</div>
 		</div>

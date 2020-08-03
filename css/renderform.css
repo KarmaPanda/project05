@@ -85,11 +85,8 @@ table {
 	text-shadow: 3px 3px 5px black;
 }
 
-fieldset {
-	margin: 50px;
-	padding: 30px;
-	border: 1px solid #ffffff;
-	border-radius: 15px;
-	margin-bottom: 20px;
+#padlogo:hover {
+	border-bottom: 1px solid orange;
+
 }
 
