@@ -14,7 +14,7 @@ IA:
 - "Your Account" button links to portal.php and allows the student to add, edit, or delete profiles. Canceling the database page or HTML form leads back to this page
 - The "Add New Profile" button links directly to the HTML form for convenience
 - The "Edit Profile" and "Delete Profile" buttons give the student clear options, but the choice to delete remains easily accessible under the umbrella of editing (and vice versa)
-- After hitting "Edit Profile" or "Delete Profile," the option to create a profile is not prominent, but still accessible
+- After hitting "Edit Profile" or "Delete Profile," the option to create a profile is not prominent, but still accessible- the choreography is forgiving of user mis-clicks
 - After creating a profile, a user can view their profile/other students' profiles on the student-accessible database, or go back to the index
 
 
