@@ -19,4 +19,5 @@
 
 	<a href="db.php" class="option">Delete Profile</a>
 </section>
+</body>
 </html>
