@@ -62,7 +62,7 @@ while($row = mysqli_fetch_array( $result )) {
       <td><?php echo $row['info']; ?></td>
       <td><?php echo $row['quote']; ?></td>
       <td><?php echo $row['link']; ?></td>
-      <td><a class="btn btn-warning ml-3" href="edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
+      <td><a class="btn btn-warning ml-2" href="edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
       <td><a class="btn btn-danger ml-2" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
     </tr>
   </tbody>
