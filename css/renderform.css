@@ -15,10 +15,11 @@
 .container_portal {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 85px;
 }
 
 .option {
-	border: 2px solid indigo;
+	
 	background-color: indigo;
 	border-radius: 3px;
 	align-content: center;
@@ -33,7 +34,7 @@
 }
 
 .option:hover {
-	background-color: navy;
+	background-color: #82538c;
 }
 
 .plus_new {
