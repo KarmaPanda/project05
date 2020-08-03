@@ -88,9 +88,12 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 				</div>
 			</div>
 		</div>
-		<div>* required</div>
-		
-		<input type="submit" name="submit" id="submit" value="Submit">
+		<div class="text-danger shadow-text font-weight-bolder">* required</div>
+		<div class="row">
+			<div class="col mt-4">
+				<input class="btn btn-success" type="submit" name="submit" id="submit" value="Submit">
+			</div>
+		</div>
 	</fieldset>
 		
 
