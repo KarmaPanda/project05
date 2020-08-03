@@ -61,8 +61,14 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 					<label for="quote"><strong>quote: *</strong></label>
 					<textarea class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"></textarea>
 				</div>
+				<div class="col-10">
+					<h4>20 words or under is ideal - this is the perfect place for a haiku, not so much a full-page poem.</h4>
+					<label for="quote"><strong>quote: *</strong></label>
+					<textarea class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"></textarea>
+				</div>
 			</div>
 		</div>
+
 		<h3>Write a couple sentences about yourself.</h3>
 		<h4>(For the sake of brevity, pretty please keep it to 80 words or under.)</h4>
 		<div class="form-group">
