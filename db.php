@@ -55,7 +55,7 @@ while($row = mysqli_fetch_array( $result )) {
 ?>
   <tbody>
     <tr>
-      <td scope="row"><?php echo $row['firstname']; ?></td>
+      <td><?php echo $row['firstname']; ?></td>
       <td><?php echo $row['lastname']; ?></td>
       <td><?php echo $row['info']; ?></td>
       <td><?php echo $row['quote']; ?></td>
