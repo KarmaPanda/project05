@@ -59,7 +59,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 			<div class="row">
 				<div class="col-10">
 					<label for="quote"><strong>Quote: *</strong></label>
-					<textarea class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"></textarea>
+					<input type="text" class="form-control" name="quote" id="quote" value="<?php echo $quote; ?>"/>
 				</div>
 			</div>
 		</div>
@@ -70,7 +70,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 			<div class="row">
 				<div class="col-11">
 					<label for="info"><strong>Blurb About You: *</strong></label>
-					<textarea class="form-control" name="info" id="info" value="<?php echo $info; ?>"></textarea>
+					<input type="textarea" class="form-control" name="info" id="info" value="<?php echo $info; ?>"/>
 				</div>
 			</div>
 		</div>
@@ -79,7 +79,7 @@ function renderForm($id, $firstname, $lastname, $quote, $info, $link, $error) {
 			<div class="row">
 				<div class="col-6">
 					<label for="link"><strong>Link to Personal Page: *</strong></label>
-					<input type="text" class="form-control" name="link" id="link" value="<?php echo $link; ?>"/>
+					<input type="textarea" class="form-control" name="link" id="link" value="<?php echo $link; ?>"/>
 				</div>
 			</div>
 		</div>
