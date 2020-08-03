@@ -255,7 +255,7 @@ td {
 }
 
 th.col-fname {
-  width: 13%;
+  width: 15%;
 }
 
 th.col-lname {
@@ -275,7 +275,7 @@ th.col-link {
 }
 
 th.col-functions {
-  width: 32%;
+  width: 210px;
 }
 
 .dbgrid div 
