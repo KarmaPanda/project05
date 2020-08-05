@@ -94,7 +94,7 @@ if (isset($_POST['submit'])) {
 
     foreach ($errors as $error) {
         if ($error) {
-            renderForm($id, $firstname, $lastname, $info, $link, $quote, $img, $errors);
+            renderForm('', $firstname, $lastname, $info, $link, $quote, $img, $errors);
             $errorGenerated = true;
             break;
         }
