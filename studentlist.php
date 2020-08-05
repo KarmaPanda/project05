@@ -69,7 +69,7 @@ $result = mysqli_query($connection, $query);
                 <?php } ?>
             </article>
 
-            <a href="<?php echo $data["link"]; ?>"><img src="images/stars_resized.png" alt="view page stars">
+            <a href="<?php echo $data["link"]; ?>" target="_blank"><img src="images/stars_resized.png" alt="view page stars">
                 <div>Read More</div>
             </a>
 
