@@ -3,7 +3,7 @@ session_start();
 
 include "connect-db.php";
 
-$query = "SELECT * FROM classinfo";
+$query = "SELECT * FROM classinfo ORDER BY firstname ASC";
 $result = mysqli_query($connection, $query);
 ?>
 
