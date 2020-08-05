@@ -4,7 +4,7 @@ session_start();
 
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: portal.php");
+    header("location: studentlist.php");
     exit;
 }
 
@@ -64,7 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
 
                             // Redirect user to welcome page
-                            header("location: portal.php");
+                            header("location: studentlist.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "The password you entered was not valid.";
@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 <div class="wrapper">
     <h2>Login</h2>
-    <p>Please fill in your credentials to login.</p>
+    <p>Please fill in your credentials.</p>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
             <label>Username</label>
@@ -117,7 +117,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <div class="form-group">
             <input type="submit" class="btn btn-primary" value="Login">
         </div>
-        <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
     </form>
 </div>
 </body>

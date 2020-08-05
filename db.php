@@ -20,8 +20,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     $result = mysqli_query($connection, "SELECT * FROM classinfo");
     ?>
 
-    <?php include "inc/nav.php" ?>
-
     <table class="table table-bordered table-secondary">
         <thead class="thead-dark">
         <tr>

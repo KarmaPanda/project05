@@ -13,8 +13,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
 <body class="container-slist">
 
-<?php include "inc/nav.php" ?>
-
 <div class="container">
     <div class="row">
         <div class="col">
