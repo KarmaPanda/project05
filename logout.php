@@ -9,6 +9,10 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to login page
-header("location: studentlist.php");
+if(isset($_SERVER['HTTP_REFERER'])){
+    header("location: ".$_SERVER['HTTP_REFERER']);
+} else {
+    header("location: index.php");
+}
 exit;
 ?>
