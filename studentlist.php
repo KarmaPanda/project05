@@ -76,7 +76,7 @@ $result = mysqli_query($connection, $query);
             <?php if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]) { ?>
                 <div>
                     <a href="edit.php?id=<?php echo $data['id'];?>">Edit</a>
-                    <a href="delete.php">Delete</a>
+                    <a onclick="return confirm('Are you sure you want to delete: <?php echo $data["firstname"];?>?')" href="delete.php?id=<?php echo $data['id']; ?>">Delete</a>
                 </div>
             <?php }?>
 

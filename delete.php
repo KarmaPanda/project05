@@ -20,10 +20,10 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 	$result = mysqli_query($connection, "DELETE FROM classinfo WHERE id=$id");
 
 	// redirect back to the homepage to see the results
-	header("Location: db.php");
+	header("Location: studentlist.php");
 
 } else {
 	// if id isn't set, or isn't valid, redirect back to homepage
-	header("Location: db.php");
+	header("Location: studentlist.php");
 }
 ?>
