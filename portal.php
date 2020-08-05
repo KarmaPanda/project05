@@ -1,23 +1,42 @@
+<?php
+// Initialize the session
+session_start();
+
+// Check if the user is logged in, if not then redirect him to login page
+if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
+    header("location: index.php");
+    exit;
+}
+?>
+
 <?php include "inc/html_top.php"; ?>
 
-<header class="persistent">
-	<div class="containerz">
-		<div class="primary">
-			<!-- Primary Optical Area -->
-			<a href="index.php"><img src="images/logo_small.png" alt="Logo" id="padlogo"></a>
-		</div>
-			<h1 class="middle">CSC 174 - Advanced Front End Web Design and Development</h1>
+<body class="container-slist">
 
-	</div>
-</header>
+<?php include "inc/nav.php" ?>
 
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <a href="new.php" class="option">Add New Profile</a>
+        </div>
 
-<div class="container_portal">
-	<a href="new.php" class="option">Add New Profile</a>
+        <div class="col">
+            <a href="db.php" class="option">Modify Existing Profiles</a>
+        </div>
+    </div>
 
-	<a href="db.php" class="option">Edit Profile</a>
+    <div class="row">
+        <div class="col">
+            <a href="register.php" class="option">Create New User</a>
+        </div>
 
-	<a href="db.php" class="option">Delete Profile</a>
+        <div class="col">
+            <a href="reset.php" class="option">Reset Password</a>
+        </div>
+    </div>
 </div>
+
+<?php include "inc/scripts.php" ?>
 </body>
 </html>

@@ -1,15 +1,14 @@
-<nav class="menu">
-	<a href="index.php">
-		<figure>
-		<img src="images/logo_small.png" alt="Class Logo">
-		</figure>
-	</a>
-	<ul>
-		<li><a href="index.php">Home</a></li>
-		<li><a href="studentlist.php">Student List</a></li>
-		<li> <a href="adira.php">Adira</a></li>
-		<li> <a href="jason.php">Jason</a></li>
-		<li> <a href="yilin.php">Yilin</a></li>
-		<li> <a href="db.php">Info</a></li>
-	</ul>
+<nav class="navbar menu">
+    <a class="navbar-brand" href="index.php">
+        <figure id="padlogo">
+            <img src="images/logo_small.png" alt="Class Logo">
+        </figure>
+    </a>
+    <ul class="navbar-nav">
+        <a class="nav-item nav-link" href="studentlist.php">Students</a>
+        <?php if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]) { ?>
+        <a class="nav-item nav-link" href="portal.php">Admin</a>
+        <a class="nav-item nav-link" href="logout.php">Sign Out</a>
+        <?php } ?>
+    </ul>
 </nav>
