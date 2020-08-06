@@ -5,7 +5,7 @@
 .big-message {
 	text-align: center;
 	text-shadow: 0 0 30px black;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .big-message h1 {
@@ -236,7 +236,7 @@ ul
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 50px;
-  grid-column-gap: 0px;
+  grid-column-gap: 0;
   justify-content: center;
 }
 
@@ -293,66 +293,14 @@ td {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  padding-top: 0px;
   border: 2px outset hotpink;
   background: #eee;
   border-radius: 5px;
-  padding: 5px;
+  padding: 0 5px 5px 5px;
 
 }
 
-.one, .two, .three
-{
-	grid-row: 1;
-}
 
-.four, .five, .six 
-{
-	grid-row: 2;
-}
-
-.seven, .eight, .nine
-{
-	grid-row: 3;
-}
-
-.ten, .eleven, .twelve
-{
-  grid-row: 4;
-}
-
-.one, .four, .seven, .ten
-{
-	grid-column: 1;
-}
-
-.two, .five, .eight, .eleven
-{
-	grid-column: 2;
-}
-
-.three, .six, .nine, .twelve
-{
-	grid-column: 3;
-}
-
-.roc, .i
-{
-	grid-row: 1;
-	grid-column: 1;
-}
-
-.summer, .awards 
-{
-	grid-row: 1;
-	grid-column: 2;
-}
-
-.top img 
-{
-  grid-row: 1;
-  grid-column: 1;
-}
 
 .top ul
 {
@@ -427,6 +375,14 @@ td {
   line-height: 35px;
 }
 
+.student_list{
+    padding-bottom: 100px;
+}
+
+.read_more{
+    margin-top: 50px;
+}
+
 article a 
 {
   position: absolute;
@@ -481,6 +437,7 @@ article a
   display: contents;
 }
 
+
 /* *****************
     Modules
 ***************** */
@@ -496,6 +453,50 @@ article a
 	font-size: 32px;
 	font-weight: bold;
 	margin-top: 10px;
+}
+
+.add_student{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.add_student a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.add_student a:hover{
+    background-color: rgb(255, 255, 255, 0.15);
+}
+
+.read_delete{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.read_delete a{
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.read_delete a:hover{
+    background-color: rgb(255, 255, 255, 0.15);
+}
+
+.top_border{
+    padding-top: 80px;
+    border-top: 1px solid white;
+}
+
+.bot_border{
+    margin-bottom: 40px;
 }
 
 .f-page-link-adria
@@ -569,7 +570,6 @@ article a
 .z-pattern a:hover 
 {
 	color: lightblue;
-	border-bottom: 1px solid orange;
 }
 
 

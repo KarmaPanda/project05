@@ -5,40 +5,45 @@
 
 .menu
 {
-    grid-column: 1/4;
+    margin-bottom: 40px;
 }
 
-.menu ul 
-{  
+.menu ul
+{
     list-style: none;
     box-sizing: border-box;
     display: flex;
-    padding-left: 0; 
+    padding-left: 0;
     /* justify-content: center; */
     justify-content: flex-end;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(96, 96, 96, 0.1);
 }
 
-.menu li 
-{ 
+.menu li
+{
     margin-left: 30px;
     text-decoration: none;
     display: inline;
     font-family: 'Montserrat', sans-serif;
 }
 
-.menu a 
-{ 
+.menu a
+{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1px;
-    font-weight: 600;  
+    font-weight: 600;
     vertical-align: middle;
     color: lightgray;
+}
+
+.logo_link{
+    text-decoration: none!important;
+
 }
 
 /* *****************
@@ -64,5 +69,5 @@
 .menu figure 
 {
     float: left;
-    margin: 0px;
+    margin: 0;
 }
