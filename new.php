@@ -102,7 +102,7 @@ if (isset($_POST['submit'])) {
 
     if (!$errorGenerated) {
 		$result = mysqli_query($connection, "INSERT INTO classinfo (firstname, lastname, info, link, quote, img) VALUES ('$firstname', '$lastname', '$info', '$link', '$quote', '$img')");
-		header("Location: db.php");
+		header("Location: studentlist.php");
 	}
 } else {
 	renderForm('','','','','','','', $errors);
