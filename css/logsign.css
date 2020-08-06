@@ -1,0 +1,97 @@
+/* *****************
+    Base Styles
+***************** */
+
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/cool-background.png);
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* *****************
+    Layout Styles
+***************** */
+
+
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    padding: 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.login_option{
+    margin-top: 20px;
+}
+
+/* *****************
+    Modules
+***************** */
+
+.wrapper label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.wrapper input[type="submit"]{
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, #5962cb 10%, #6110cc 100%);
+    height: 40px;
+    float: right;
+}
+
+.wrapper input[type="reset"]{
+    margin-top: 20px;
+    height: 40px;
+}
+
+.login{
+    width: 100%;
+}
+
+.register{
+    width: 48%;
+}
+
+.wrapper input[type="text"],
+input[type="password"]{
+    border-radius: 5px;
+    border-style: none;
+    background-color: #e9e9e9;
+    height: 35px;
+}
+
+.wrapper input[type="text"]:hover,
+input[type="password"]:hover{
+    border: 1px darkslateblue solid;
+}
+
+.wrapper input[type="submit"]:hover{
+    background-image: linear-gradient(90deg, #474ea2 10%, #420a8b 100%);
+    transition: 0.5s;
+}
+
+.form-control{
+    box-shadow: none;
+}
+
