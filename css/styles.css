@@ -148,7 +148,7 @@ h3
 {
   font-size: 20px;
   line-height: initial;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 h1, h2, h3, h4
@@ -245,8 +245,8 @@ ul
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 0px;
-    grid-column-gap: 0px;
+    grid-gap: 0;
+    grid-column-gap: 0;
     justify-content: center;
 }
 
@@ -306,9 +306,9 @@ td {
 {
   grid-row: 1;
   grid-column: 1/4;
-  margin-top: 0px;
-  padding-left: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
   align-self: end;
   padding-top: 5px;
   list-style: none;
@@ -321,8 +321,8 @@ td {
 {
 	grid-row: 1;
   grid-column: 1/4;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 110px;
   line-height: 30px;
   max-width: 650px;
@@ -346,9 +346,9 @@ td {
 .awards h3
 {
   background-color: #eee;
-  padding: 10px 0px 10px 15px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  padding: 10px 0 10px 15px;
+  margin-bottom: 0;
+  margin-top: 0;
   border-bottom: 0.5px solid grey;
   color: blue;
 }
@@ -386,8 +386,8 @@ td {
 article a 
 {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   color: red;
 }
 
@@ -398,7 +398,7 @@ article a
 
 .f-page h2
 {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 8px;
 }
 
@@ -407,7 +407,7 @@ article a
   padding-right: 10px;
 }
 
-.f-page section
+.profile-thumbnail
 {
   display: inline-block;
   border: 2px solid white;
@@ -416,7 +416,7 @@ article a
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.f-page section p
+.profile-thumbnail p
 {
   color: #ffa1d0;
   font-weight: bold;
@@ -469,7 +469,7 @@ article a
 }
 
 .add_student a:hover{
-    background-color: rgb(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .read_delete{
@@ -487,7 +487,7 @@ article a
 }
 
 .read_delete a:hover{
-    background-color: rgb(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .top_border{
@@ -537,8 +537,8 @@ article a
 
 .z-page h2
 {
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
   font-size: 15px;
   text-align: center;
 }

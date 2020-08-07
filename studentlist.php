@@ -49,9 +49,7 @@ $result = mysqli_query($connection, $query);
     </div>
 <?php }?>
 
-<section class="student_list">
-
-
+<div class="student_list">
     <div id="f-page-div" class="f-page">
         <?php
         // 3. Use returned data (if any)
@@ -61,10 +59,10 @@ $result = mysqli_query($connection, $query);
         <div class="container">
             <div class="row top_border">
                 <div class="col-3">
-                    <section>
+                    <div class="profile-thumbnail">
                         <?php if (empty($data["img"])) { ?>
                             <?php if (empty($data["quote"])) { ?>
-                                <img src="images/profile.png">
+                                <img src="images/profile.png" alt="<?php echo $data["firstname"]; ?>'s profile picture.">
                             <?php } else { ?>
                                 <p><?php echo $data["quote"]; ?></p>
                             <?php } ?>
@@ -73,7 +71,7 @@ $result = mysqli_query($connection, $query);
                                 <img class="img-fluid" src="images/upload/<?php echo $data["img"]; ?>" alt="<?php echo $data["quote"]; ?>">
                             </figure>
                         <?php } ?>
-                    </section>
+                    </div>
                 </div>
                 <div class="col-6">
                     <article>
@@ -104,7 +102,7 @@ $result = mysqli_query($connection, $query);
 
         <?php } ?>
     </div>
-</section>
+</div>
 
 <?php include "inc/scripts.php"; ?>
 
